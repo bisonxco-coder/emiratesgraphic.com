@@ -1,0 +1,70 @@
+/*Only in desktop*/
+@media only screen and (min-width: 1000px) {
+    .desktop-d-n {
+      display: none ;
+    }
+}
+
+
+/*Only on Mobile*/
+@media only screen and (max-width: 1000px) {
+    .mobile-d-n {
+        display: none !important;
+    }
+    .rellax { 
+        transform: translate3d(0,0,0) !important; 
+    }    
+    .navigation_top {
+        padding: 5vh 15px;
+    }
+    .three_bigones_pc {
+        text-align: center;
+    }
+    .top_header {
+        padding-top: 25vh;
+        padding-bottom: 5vh;
+    }
+    .facts_section_first img {
+        width: 50%;
+        padding: 5%;
+    }
+    .top_header h1 {
+        font-size: 30px;
+    }    
+    .top_header img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .top_header input {
+        width: 44.5%;
+        background: 0 0;
+        border: none;
+        border-bottom: 2px #fff solid;
+        margin-bottom: 10px;
+        color: #fff;
+        padding: 5px;
+        margin-left: 10px;
+    }
+    .top_header .default_button {
+        background-color: #ff0000;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        height: 40px;
+        width: 44.5%;
+        transition: ease-in-out 0.2s all;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .owl-item.center img {
+        transform: scale(1);
+        z-index: 44!important;
+        opacity: 1!important;
+    }
+    footer {
+        text-align: center;
+    }
+    footer .col-md-3 {
+        padding-left: 0px;
+    }
+}

@@ -1,0 +1,92 @@
+.wecraft_section_incev {
+    padding: 4% 10px;
+}
+
+.wecraft_section_incev img {
+    height: auto;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.wecraft_section_incev .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wecraft_section_incev h2 {
+    font-family: Grotesk;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 130.5%;
+    color: #072446;
+}
+
+.wecraft_section_incev span {
+    color: red;
+}
+
+.wecraft_section_incev button {
+    margin: 20px 0px;
+}
+
+.partnerlogos {
+    background: #3A345E;
+    padding: 4% 0px;
+}
+.partnerlogos h5 {
+    font-family: Grotesk;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 140.5%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.logoboxholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoboxholder .box {
+    width: 25%;
+    text-align: center;
+}
+.logoboxholder .box img {
+    width: 70%;
+    height: 80px;
+    object-fit: contain;
+    margin: 20px 0px;
+    filter: brightness(0) invert(1);
+}
+
+
+.whatsapp_holder {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+}
+
+.whatsapp_holder img {
+    width: 50px;
+}
+
+/*Only on Mobile*/
+@media only screen and (max-width: 1000px) {
+    .mobile-d-n {
+        display: none;
+    }
+    .logoboxholder .box {
+        width: 50%;
+        text-align: center;
+    }
+}
+

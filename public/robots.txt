@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin
+Disallow: /login
+Disallow: /logout
+Disallow: /api/
+Disallow: /cgi-bin/
+
+Sitemap: https://emiratesgraphic.com/sitemap.xml

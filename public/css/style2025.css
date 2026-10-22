@@ -1,0 +1,2273 @@
+span {
+        font-family: SF-UI-Display-Regular !important;
+}
+.instaworkertheme .emoji_cover,
+.instaworkertheme .moving_shape1,
+.instaworkertheme .three_devices_holder_shippers .moving_shape1,
+.instaworkertheme ._morph_icon {
+    background-color: black !important;
+}
+
+.instaworkertheme .story_section_all_portfolios h3 {
+    color: #000;
+}
+
+.half_corolerd {
+    position: relative;
+    color: white;
+}
+
+.half_corolerd::before {
+    content: '';
+    background: black;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+.testimonial_services .container {
+    padding-top: 90px;
+}
+
+.instaworkertheme .mocups_6ix .img_holder {
+    z-index: 1;
+}
+
+/* Famfolio */
+
+.famfoliotheme .emoji_cover,
+.famfoliotheme .moving_shape1,
+.three_devices_holder_shippers .moving_shape1,
+.famfoliotheme ._morph_icon {
+    background-color: #D7C3FF !important;
+}
+
+.famfoliotheme .story_section_all_portfolios h3 {
+    color: #D7C3FF;
+}
+
+.famfoliotheme .half_corolerd {
+    position: relative;
+    color: black;
+}
+
+.famfoliotheme .half_corolerd::before {
+    content: '';
+    background: #D7C3FF;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+.famfoliotheme .mocups_6ix .img_holder {
+    z-index: 1;
+}
+
+/* Fidali */
+
+.fidalitheme .emoji_cover,
+.fidalitheme .moving_shape1,
+.fidalitheme .three_devices_holder_shippers .moving_shape1,
+.fidalitheme ._morph_icon {
+    background-color: #FF3333 !important;
+}
+
+.fidalitheme .story_section_all_portfolios h3 {
+    color: #FF3333;
+}
+
+.fidalitheme .half_corolerd {
+    position: relative;
+    color: #fff;
+}
+
+.fidalitheme .half_corolerd::before {
+    content: '';
+    background: #FF3333;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+.fidalitheme .mocups_6ix.nd .img_holder,
+.fidalitheme .mocups_6ix .img_holder {
+    z-index: 1;
+}
+
+.fidalitheme .mocups_6ix.nd .img_holder {
+    width: 20%;
+}
+
+.fidalitheme .down_before_effect {
+    position: relative;
+}
+
+.fidalitheme .down_before_effect::before {
+    content: '';
+    background: #FF3333;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+
+/* DASKA */
+
+
+.daskatheme .emoji_cover,
+.daskatheme .moving_shape1,
+.three_devices_holder_shippers .moving_shape1,
+.daskatheme ._morph_icon {
+    background-color: #507DC5 !important;
+}
+
+.daskatheme .story_section_all_portfolios h3 {
+    color: #507DC5;
+}
+
+.daskatheme .half_corolerd {
+    position: relative;
+    color: #fff;
+}
+
+.daskatheme .half_corolerd::before {
+    content: '';
+    background: #507DC5;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+.daskatheme .mocups_6ix .img_holder {
+    z-index: 1;
+}
+
+.daskatheme .down_before_effect {
+    position: relative;
+}
+
+.daskatheme .down_before_effect::before {
+    content: '';
+    background: #507DC5;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+/* Summit */
+
+
+.summittheme .emoji_cover{
+    background-image: url('../img/portfolio/summit17.png') !important;
+    background-size: cover;
+}
+
+.summittheme .moving_shape1,
+.summittheme .three_devices_holder_shippers .moving_shape1,
+.summittheme ._morph_icon {
+    background-color: #D6C2FE;
+}
+
+.summittheme .story_section_all_portfolios h3 {
+    color: #D6C2FE !important;
+}
+
+.summittheme .half_corolerd {
+    position: relative;
+    color: #fff;
+}
+
+.summittheme .half_corolerd::before {
+    content: '';
+    background: #D6C2FE;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+.summittheme .mocups_6ix .img_holder {
+    z-index: 1;
+}
+
+.summittheme .down_before_effect {
+    position: relative;
+}
+
+.summittheme .down_before_effect::before {
+    content: '';
+    background: #D6C2FE;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+.wide_portfolio a {
+    color: currentColor !important;
+}
+
+.wide_portfolio a:hover {
+    color: currentColor !important;
+    opacity: 0.9;
+}
+
+.cover_text {
+    display: block;
+}
+
+.white_extrabtn {
+    background-color: #E30D16;
+    border-radius: 10px;
+    padding: 12px 17px;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* ========================================
+   LLM-OPTIMIZED SERVICES PAGE STYLES
+   ======================================== */
+
+/* Industries We Serve Section */
+.industries-section {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.industries-section h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: sf-ui-display-bold;
+    font-size: 48px;
+    color: #191727;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.industries-section h2::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 90px;
+    height: 4px;
+    background-color: #e82a2a;
+}
+
+.industries-section .row {
+    margin-top: 60px;
+}
+
+.industry-card {
+    text-align: center;
+    padding: 35px 25px;
+    margin-bottom: 20px;
+    background: #f8f8f8;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    min-height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.industry-card:hover {
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transform: translateY(-3px);
+}
+
+.industry-card h5 {
+    font-family: sf-ui-display-bold;
+    font-size: 22px;
+    color: #191727;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.industry-card:hover h5 {
+    color: #e82a2a;
+}
+
+.industry-card:hover p {
+    color: #fff;
+}
+
+/* FAQ Section */
+.faq-section {
+    padding: 80px 0;
+    background: #f8f8f8;
+}
+
+.faq-section h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: sf-ui-display-semibold;
+    font-size: 60px;
+    color: #191727;
+}
+
+.faq-card {
+    border: none;
+    margin-bottom: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.faq-card-header {
+    background: transparent;
+    border: none;
+    padding: 25px 30px;
+}
+
+.faq-card-header .btn-link {
+    text-decoration: none;
+    color: #191727;
+    font-family: sf-ui-display-bold;
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+    padding: 0;
+    position: relative;
+}
+
+.faq-card-header .btn-link:hover {
+    color: #191727;
+}
+
+.faq-card-header .btn-link::after {
+    content: '▼';
+    position: absolute;
+    right: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #191727;
+    transition: transform 0.3s ease;
+}
+
+.faq-card-header .btn-link.collapsed::after {
+    content: '▶';
+}
+
+.faq-card-body {
+    padding: 0 30px 25px 30px;
+    font-family: SF-UI-Display-Regular;
+    font-size: 17px;
+    color: #191727;
+    line-height: 1.8;
+}
+
+.faq-card-body ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.faq-card-body ul li {
+    margin-bottom: 8px;
+}
+
+/* Success Stories Section - Matching Original Testimonial Style */
+.success-stories-section h2 {
+    font-family: sf-ui-display-semibold;
+    font-size: 99px;
+    margin-bottom: 1%;
+    color: #191727;
+    padding-left: 2%;
+    letter-spacing: -5px;
+}
+
+.success-story-card h6 {
+    font-family: sf-ui-display-bold;
+    font-size: 30px;
+    color: #191727;
+    margin-bottom: 15px;
+}
+
+.success-story-card .story-metric {
+    font-size: 30px;
+    font-family: SF-UI-Display-Regular;
+    color: #191727;
+    line-height: 1.6;
+}
+
+.success-story-card .story-source {
+    font-size: 18px;
+    color: #666;
+    margin-top: 15px;
+    font-family: SF-UI-Display-Regular;
+    opacity: 0.7;
+}
+
+/* Client Testimonials Grid */
+.client-testimonials-section h4 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: sf-ui-display-semibold;
+    font-size: 40px;
+    color: #191727;
+}
+
+.testimonial-grid-card {
+    padding: 30px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    min-height: 200px;
+    border-left: 4px solid #e82a2a;
+}
+
+.testimonial-grid-card p {
+    font-style: italic;
+    margin-bottom: 20px;
+    font-family: SF-UI-Display-Regular;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #191727;
+}
+
+.testimonial-grid-card .client-name {
+    margin-bottom: 0;
+    font-family: sf-ui-display-bold;
+    font-size: 16px;
+    color: #191727;
+}
+
+.testimonial-grid-card .client-company {
+    font-family: SF-UI-Display-Regular;
+    font-size: 14px;
+    color: #666;
+}
+
+/* About Us - Who We Are & Authority Section */
+.section_about_intro {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.section_about_intro h2 {
+    font-family: sf-ui-display-bold;
+    font-size: 48px;
+    color: #191727;
+    margin-bottom: 25px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.section_about_intro h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 110px;
+    height: 4px;
+    background-color: #e82a2a;
+}
+
+.section_about_intro p {
+    font-family: SF-UI-Display-Regular;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #191727;
+}
+
+/* About Us - Industries We Serve Section */
+.section_industries {
+    padding: 80px 0;
+    background: #f8f8f8;
+}
+
+.section_industries h2 {
+    font-family: sf-ui-display-bold;
+    font-size: 48px;
+    color: #191727;
+    margin-bottom: 25px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.section_industries h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 90px;
+    height: 4px;
+    background-color: #e82a2a;
+}
+
+.section_industries p {
+    font-family: SF-UI-Display-Regular;
+    font-size: 32px;
+    line-height: 1.6;
+    color: #191727;
+    margin-top: 30px;
+}
+
+/* Web Development Page - New Sections */
+
+/* Why High-Performance Website Section */
+.why-high-performance-section {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.why-high-performance-section h2 {
+    font-family: sf-ui-display-bold;
+    font-size: 48px;
+    color: #191727;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.why-high-performance-section .intro-text {
+    font-family: SF-UI-Display-Regular;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #191727;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.why-high-performance-section .quote-block {
+    background: #f8f8f8;
+    padding: 40px;
+    border-left: 4px solid #e82a2a;
+    margin: 40px 0;
+}
+
+.why-high-performance-section .quote-block p {
+    font-family: sf-ui-display-semibold;
+    font-size: 24px;
+    line-height: 1.6;
+    color: #191727;
+    margin: 0;
+    font-style: italic;
+}
+
+.why-high-performance-section .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.why-high-performance-section .stat-item {
+    text-align: center;
+    padding: 30px;
+    background: #f8f8f8;
+    border-radius: 8px;
+}
+
+.why-high-performance-section .stat-item h3 {
+    font-family: sf-ui-display-bold;
+    font-size: 48px;
+    color: #e82a2a;
+    margin-bottom: 15px;
+}
+
+.why-high-performance-section .stat-item p {
+    font-family: SF-UI-Display-Regular;
+    font-size: 18px;
+    color: #191727;
+    margin: 0;
+}
+
+/* What Sets Us Apart Section */
+.what-sets-apart-section {
+    padding: 80px 0;
+    background: #f8f8f8;
+}
+
+.what-sets-apart-section h2 {
+    font-family: sf-ui-display-bold;
+    font-size: 48px;
+    color: #191727;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.what-sets-apart-section .intro-text {
+    font-family: SF-UI-Display-Regular;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #191727;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.what-sets-apart-section .feature-card {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.what-sets-apart-section .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(232, 42, 42, 0.15);
+}
+
+.what-sets-apart-section .feature-card h4 {
+    font-family: sf-ui-display-bold;
+    font-size: 24px;
+    color: #191727;
+    margin-bottom: 15px;
+}
+
+.what-sets-apart-section .feature-card p {
+    font-family: SF-UI-Display-Regular;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #191727;
+    margin: 0;
+}
+
+/* Capabilities Section */
+.capabilities-section {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.capabilities-section h2 {
+    font-family: sf-ui-display-bold;
+    font-size: 48px;
+    color: #191727;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.capabilities-section .intro-text {
+    font-family: SF-UI-Display-Regular;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #191727;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.capabilities-section .capabilities-list {
+    list-style: none;
+    padding: 0;
+}
+
+.capabilities-section .capabilities-list li {
+    font-family: SF-UI-Display-Regular;
+    font-size: 18px;
+    line-height: 2;
+    color: #191727;
+    padding-left: 30px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.capabilities-section .capabilities-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #e82a2a;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Industries We Serve Section (Web Dev specific) */
+.industries-we-serve-section {
+    padding: 80px 0;
+    background: #f8f8f8;
+}
+
+.industries-we-serve-section h2 {
+    font-family: sf-ui-display-bold;
+    font-size: 48px;
+    color: #191727;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.industries-we-serve-section .intro-text {
+    font-family: SF-UI-Display-Regular;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #191727;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.industries-we-serve-section .industry-item {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-left: 4px solid #e82a2a;
+    transition: all 0.3s ease;
+}
+
+.industries-we-serve-section .industry-item:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transform: translateX(5px);
+}
+
+.industries-we-serve-section .industry-item h5 {
+    font-family: sf-ui-display-bold;
+    font-size: 22px;
+    color: #191727;
+    margin-bottom: 10px;
+}
+
+.industries-we-serve-section .industry-item p {
+    font-family: SF-UI-Display-Regular;
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+}
+
+/* Proof of Performance Section */
+.proof-performance-section {
+    padding: 80px 0;
+    background: #191727;
+    color: #fff;
+}
+
+.proof-performance-section h2 {
+    font-family: sf-ui-display-bold;
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.proof-performance-section .proof-stat {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.proof-performance-section .proof-stat h3 {
+    font-family: sf-ui-display-bold;
+    font-size: 42px;
+    color: #e82a2a;
+    margin-bottom: 15px;
+}
+
+.proof-performance-section .proof-stat p {
+    font-family: SF-UI-Display-Regular;
+    font-size: 17px;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Case Studies Section */
+.case-studies-section {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.case-studies-section h2 {
+    font-family: sf-ui-display-bold;
+    font-size: 48px;
+    color: #191727;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.case-studies-section .intro-text {
+    font-family: SF-UI-Display-Regular;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #191727;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.case-studies-section .case-study-card {
+    background: #f8f8f8;
+    padding: 40px 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+    min-height: 220px;
+}
+
+.case-studies-section .case-study-card:hover {
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+}
+
+.case-studies-section .case-study-card h5 {
+    font-family: sf-ui-display-bold;
+    font-size: 24px;
+    color: #e82a2a;
+    margin-bottom: 20px;
+}
+
+.case-studies-section .case-study-card p {
+    font-family: SF-UI-Display-Regular;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #191727;
+    margin-bottom: 20px;
+}
+
+.case-studies-section .case-study-card a {
+    font-family: sf-ui-display-bold;
+    font-size: 16px;
+    color: #e82a2a;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.case-studies-section .case-study-card a:hover {
+    color: #191727;
+}
+
+/* ========================================
+   APP DEVELOPMENT PAGE - NEW STYLES 2025
+   ======================================== */
+
+/* Why Work With Us Section */
+.why-high-performance-section {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.why-high-performance-section h2 {
+    font-family: sf-ui-display-bold;
+    font-size: 42px;
+    color: #191727;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.why-high-performance-section .intro-text {
+    font-family: SF-UI-Display-Regular;
+    font-size: 18px;
+    color: #191727;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 50px;
+}
+
+.why-high-performance-section .cards-row {
+    margin-top: 40px;
+}
+
+.why-high-performance-section .feature-card {
+    background: linear-gradient(135deg, #f8f8f8 0%, #ffffff 100%);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    border-left: 4px solid #e82a2a;
+}
+
+.why-high-performance-section .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(232,42,42,0.15);
+}
+
+.why-high-performance-section .feature-card.dark {
+    background: linear-gradient(135deg, #fff5f5 0%, #ffffff 100%);
+    border-left: 4px solid #191727;
+}
+
+.why-high-performance-section .feature-card.dark:hover {
+    box-shadow: 0 8px 30px rgba(25,23,39,0.15);
+}
+
+.why-high-performance-section .card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.why-high-performance-section .icon-circle {
+    width: 50px;
+    height: 50px;
+    background: #e82a2a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.why-high-performance-section .feature-card.dark .icon-circle {
+    background: #191727;
+}
+
+.why-high-performance-section .icon-circle i {
+    color: #fff;
+    font-size: 22px;
+}
+
+.why-high-performance-section .card-header h4,
+.why-high-performance-section .feature-card h4 {
+    font-family: sf-ui-display-bold;
+    font-size: 24px;
+    color: #191727;
+    margin: 0;
+}
+
+.why-high-performance-section .feature-card ul {
+    font-family: SF-UI-Display-Regular;
+    font-size: 17px;
+    line-height: 2.2;
+    color: #191727;
+    list-style: none;
+    padding: 0;
+}
+
+.why-high-performance-section .feature-card ul li {
+    padding-left: 30px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.why-high-performance-section .feature-card ul li span {
+    position: absolute;
+    left: 0;
+    color: #e82a2a;
+    font-weight: bold;
+}
+
+.why-high-performance-section .results-container {
+    font-family: SF-UI-Display-Regular;
+    font-size: 17px;
+    line-height: 2;
+    color: #191727;
+}
+
+.why-high-performance-section .result-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 3px solid #e82a2a;
+}
+
+.why-high-performance-section .result-item strong {
+    color: #e82a2a;
+    font-size: 28px;
+    font-family: sf-ui-display-bold;
+}
+
+.why-high-performance-section .result-item span {
+    font-size: 16px;
+}
+
+.why-high-performance-section .result-item .company {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Mobile Apps That Drive Results Section */
+.what-sets-apart-section {
+    padding: 80px 0;
+    background: linear-gradient(180deg, #f8f8f8 0%, #ffffff 100%);
+}
+
+.what-sets-apart-section h2 {
+    font-family: sf-ui-display-bold;
+    font-size: 42px;
+    color: #191727;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.what-sets-apart-section .intro-text {
+    font-family: SF-UI-Display-Regular;
+    font-size: 18px;
+    color: #191727;
+    text-align: center;
+    margin: 0 auto 50px;
+}
+
+.what-sets-apart-section .stats-row {
+    margin-bottom: 50px;
+}
+
+.what-sets-apart-section .stat-card {
+    text-align: center;
+    padding: 40px 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+.what-sets-apart-section .stat-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 10px 40px rgba(232,42,42,0.2);
+}
+
+.what-sets-apart-section .stat-card .top-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+}
+
+.what-sets-apart-section .stat-card .top-bar.red {
+    background: linear-gradient(90deg, #e82a2a 0%, #ff6b6b 100%);
+}
+
+.what-sets-apart-section .stat-card .top-bar.gold {
+    background: linear-gradient(90deg, #ffc107 0%, #ff9800 100%);
+}
+
+.what-sets-apart-section .stat-card .top-bar.dark {
+    background: linear-gradient(90deg, #191727 0%, #333 100%);
+}
+
+.what-sets-apart-section .stat-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.what-sets-apart-section .stat-icon.red {
+    background: linear-gradient(135deg, #e82a2a 0%, #ff4444 100%);
+    box-shadow: 0 5px 15px rgba(232,42,42,0.3);
+}
+
+.what-sets-apart-section .stat-icon.gold {
+    background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%);
+    box-shadow: 0 5px 15px rgba(255,193,7,0.3);
+}
+
+.what-sets-apart-section .stat-icon.dark {
+    background: linear-gradient(135deg, #191727 0%, #333 100%);
+    box-shadow: 0 5px 15px rgba(25,23,39,0.3);
+}
+
+.what-sets-apart-section .stat-icon i {
+    color: #fff;
+    font-size: 32px;
+}
+
+.what-sets-apart-section .stat-number {
+    font-family: sf-ui-display-bold;
+    font-size: 54px;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.what-sets-apart-section .stat-number.red {
+    color: #e82a2a;
+}
+
+.what-sets-apart-section .stat-number.gold {
+    color: #ffc107;
+}
+
+.what-sets-apart-section .stat-number.dark {
+    color: #191727;
+}
+
+.what-sets-apart-section .stat-number span {
+    font-size: 32px;
+}
+
+.what-sets-apart-section .stat-title {
+    font-family: SF-UI-Display-Regular;
+    font-size: 18px;
+    color: #191727;
+    margin: 0;
+    font-weight: 500;
+}
+
+.what-sets-apart-section .stat-subtitle {
+    font-family: SF-UI-Display-Regular;
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.what-sets-apart-section .dark-footer-box {
+    background: linear-gradient(135deg, #191727 0%, #2c2a3f 100%);
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+.what-sets-apart-section .achievement-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.what-sets-apart-section .achievement-item i {
+    color: #e82a2a;
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.what-sets-apart-section .achievement-item p {
+    font-family: SF-UI-Display-Regular;
+    font-size: 17px;
+    color: #fff;
+    margin: 0;
+}
+
+/* App Development Capabilities Section */
+.app-capabilities-section {
+    padding: 80px 0;
+    background: #f8f8f8;
+}
+
+.app-capabilities-section h2 {
+    font-family: sf-ui-display-bold;
+    font-size: 42px;
+    color: #191727;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.app-capabilities-section .subtitle {
+    font-family: SF-UI-Display-Regular;
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.app-capabilities-section .capability-card {
+    padding: 40px 30px;
+    background: #fff;
+    border-radius: 12px;
+    min-height: 360px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+.app-capabilities-section .capability-card:hover {
+    transform: translateY(-8px) rotate(2deg);
+    box-shadow: 0 12px 35px rgba(232,42,42,0.2);
+}
+
+.app-capabilities-section .capability-card:last-child:hover {
+    transform: translateY(-8px) rotate(-2deg);
+    box-shadow: 0 12px 35px rgba(25,23,39,0.2);
+}
+
+.app-capabilities-section .capability-card.featured {
+    background: linear-gradient(135deg, #e82a2a 0%, #ff4444 100%);
+    box-shadow: 0 8px 30px rgba(232,42,42,0.3);
+    transform: scale(1.05);
+}
+
+.app-capabilities-section .capability-card.featured:hover {
+    transform: translateY(-8px) scale(1.08);
+    box-shadow: 0 15px 40px rgba(232,42,42,0.4);
+}
+
+.app-capabilities-section .decorative-circle {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgba(232,42,42,0.1) 0%, rgba(232,42,42,0.05) 100%);
+}
+
+.app-capabilities-section .decorative-circle.dark {
+    background: linear-gradient(135deg, rgba(25,23,39,0.1) 0%, rgba(25,23,39,0.05) 100%);
+}
+
+.app-capabilities-section .capability-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.app-capabilities-section .capability-icon.red {
+    background: linear-gradient(135deg, #e82a2a 0%, #ff4444 100%);
+    box-shadow: 0 4px 15px rgba(232,42,42,0.3);
+}
+
+.app-capabilities-section .capability-icon.white {
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.app-capabilities-section .capability-icon.dark {
+    background: linear-gradient(135deg, #191727 0%, #333 100%);
+    box-shadow: 0 4px 15px rgba(25,23,39,0.3);
+}
+
+.app-capabilities-section .capability-icon i {
+    font-size: 32px;
+}
+
+.app-capabilities-section .capability-icon.red i,
+.app-capabilities-section .capability-icon.dark i {
+    color: #fff;
+}
+
+.app-capabilities-section .capability-icon.white i {
+    color: #e82a2a;
+}
+
+.app-capabilities-section .capability-card h3 {
+    font-family: sf-ui-display-bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.app-capabilities-section .capability-card.featured h3 {
+    color: #fff;
+}
+
+.app-capabilities-section .capability-card:not(.featured) h3 {
+    color: #191727;
+}
+
+.app-capabilities-section .capability-card ul {
+    font-family: SF-UI-Display-Regular;
+    font-size: 16px;
+    line-height: 2;
+    list-style: none;
+    padding: 0;
+}
+
+.app-capabilities-section .capability-card:not(.featured) ul {
+    color: #666;
+}
+
+.app-capabilities-section .capability-card.featured ul {
+    color: rgba(255,255,255,0.95);
+}
+
+.app-capabilities-section .capability-card ul li {
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.app-capabilities-section .capability-card ul li span {
+    position: absolute;
+    left: 0;
+}
+
+.app-capabilities-section .capability-card:not(.featured) ul li span {
+    color: #e82a2a;
+}
+
+.app-capabilities-section .capability-card.featured ul li span {
+    color: #fff;
+    font-weight: bold;
+}
+
+.app-capabilities-section .capability-card:last-child ul li span {
+    color: #191727;
+}
+
+.app-capabilities-section .capability-badge {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #f0f0f0;
+}
+
+.app-capabilities-section .capability-card.featured .capability-badge {
+    border-top: 2px solid rgba(255,255,255,0.3);
+}
+
+.app-capabilities-section .capability-badge span {
+    font-family: sf-ui-display-bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.app-capabilities-section .capability-card:not(.featured) .capability-badge span {
+    color: #e82a2a;
+}
+
+.app-capabilities-section .capability-card.featured .capability-badge span {
+    color: #fff;
+}
+
+.app-capabilities-section .capability-card:last-child .capability-badge span {
+    color: #191727;
+}
+
+.app-capabilities-section .popular-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(255,255,255,0.2);
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.app-capabilities-section .popular-badge span {
+    font-family: sf-ui-display-bold;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.app-capabilities-section .capability-icon.white {
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.app-capabilities-section .capability-icon.dark {
+    background: linear-gradient(135deg, #191727 0%, #333 100%);
+    box-shadow: 0 4px 15px rgba(25,23,39,0.3);
+}
+
+.app-capabilities-section .capability-icon i {
+    font-size: 32px;
+}
+
+.app-capabilities-section .capability-icon.red i,
+.app-capabilities-section .capability-icon.dark i {
+    color: #fff;
+}
+
+.app-capabilities-section .capability-icon.white i {
+    color: #e82a2a;
+}
+
+.app-capabilities-section .capability-card h3 {
+    font-family: sf-ui-display-bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.app-capabilities-section .capability-card.featured h3 {
+    color: #fff;
+}
+
+.app-capabilities-section .capability-card:not(.featured) h3 {
+    color: #191727;
+}
+
+.app-capabilities-section .capability-card ul {
+    font-family: SF-UI-Display-Regular;
+    font-size: 16px;
+    line-height: 2;
+    list-style: none;
+    padding: 0;
+}
+
+.app-capabilities-section .capability-card.featured ul {
+    color: rgba(255,255,255,0.95);
+}
+
+.app-capabilities-section .capability-card:not(.featured) ul {
+    color: #666;
+}
+
+.app-capabilities-section .capability-card ul li {
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.app-capabilities-section .capability-card.featured ul li span {
+    position: absolute;
+    left: 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+.app-capabilities-section .capability-card:not(.featured) ul li span {
+    position: absolute;
+    left: 0;
+}
+
+.app-capabilities-section .capability-card ul li span.red {
+    color: #e82a2a;
+}
+
+.app-capabilities-section .capability-card ul li span.dark {
+    color: #191727;
+}
+
+.app-capabilities-section .capability-footer {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.app-capabilities-section .capability-card.featured .capability-footer {
+    border-top: 2px solid rgba(255,255,255,0.3);
+}
+
+.app-capabilities-section .capability-card:not(.featured) .capability-footer {
+    border-top: 2px solid #f0f0f0;
+}
+
+.app-capabilities-section .capability-footer span {
+    font-family: sf-ui-display-bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.app-capabilities-section .capability-card.featured .capability-footer span {
+    color: #fff;
+}
+
+.app-capabilities-section .capability-card:not(.featured) .capability-footer span.red {
+    color: #e82a2a;
+}
+
+.app-capabilities-section .capability-card:not(.featured) .capability-footer span.dark {
+    color: #191727;
+}
+
+.app-capabilities-section .popular-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(255,255,255,0.2);
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.app-capabilities-section .popular-badge span {
+    font-family: sf-ui-display-bold;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Who We Work With Section - Updated */
+.industries-section {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.industries-section .section-title-underline {
+    font-family: sf-ui-display-bold;
+    font-size: 42px;
+    color: #191727;
+    text-align: center;
+    margin-bottom: 15px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.industries-section .section-title-underline .underline {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: #e82a2a;
+    border-radius: 2px;
+}
+
+.industries-section .industries-cards-row {
+    margin-top: 60px;
+}
+
+.industries-section .industry-card {
+    background: #f8f8f8;
+    padding: 0;
+    border-radius: 12px;
+    min-height: 140px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.industries-section .industry-card:hover {
+    background: #fff;
+    box-shadow: 0 8px 25px rgba(232,42,42,0.12);
+    transform: translateY(-5px);
+}
+
+.industries-section .industry-card .top-red-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: #e82a2a;
+    border-radius: 12px 12px 0 0;
+}
+
+.industries-section .industry-card .icon-circle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: rgba(232,42,42,0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.industries-section .industry-card .icon-circle i {
+    color: #e82a2a;
+    font-size: 20px;
+}
+
+.industries-section .industry-card .card-content {
+    padding: 35px 30px;
+}
+
+.industries-section .industry-card h4 {
+    font-family: sf-ui-display-bold;
+    font-size: 22px;
+    color: #e82a2a;
+    margin-bottom: 18px;
+    padding-right: 60px;
+    line-height: 1.3;
+}
+
+.industries-section .industry-card p {
+    font-family: SF-UI-Display-Regular;
+    font-size: 15px;
+    color: #191727;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* ========================================
+   RESPONSIVE DESIGN - MOBILE OPTIMIZATIONS
+   ======================================== */
+
+/* Tablet & Below (max-width: 991px) */
+@media (max-width: 991px) {
+    /* Why Work With Us Section */
+    .why-high-performance-section h2 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    
+    .why-high-performance-section .intro-text {
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+    
+    .why-high-performance-section .cards-row {
+        margin-top: 20px;
+    }
+    
+    .why-high-performance-section .feature-card {
+        padding: 30px 25px;
+        margin-bottom: 20px;
+    }
+    
+    /* Mobile Apps Section */
+    .what-sets-apart-section h2 {
+        font-size: 32px;
+    }
+    
+    .what-sets-apart-section .stat-number {
+        font-size: 46px;
+    }
+    
+    .what-sets-apart-section .dark-footer-box {
+        padding: 30px 25px;
+    }
+    
+    /* Capabilities Section */
+    .app-capabilities-section h2 {
+        font-size: 32px;
+    }
+    
+    .app-capabilities-section .capability-card {
+        margin-bottom: 20px;
+        min-height: auto;
+    }
+    
+    .app-capabilities-section .capability-card.featured {
+        transform: scale(1);
+    }
+    
+    /* Industries Section */
+    .industries-section .section-title-underline {
+        font-size: 32px;
+    }
+    
+    .industries-section .industry-card h4 {
+        font-size: 20px;
+        padding-right: 0px;
+    }
+}
+
+/* Mobile (max-width: 767px) */
+@media (max-width: 767px) {
+    /* Why Work With Us Section */
+    .why-high-performance-section {
+        padding: 50px 0;
+    }
+    
+    .why-high-performance-section h2 {
+        font-size: 26px;
+        margin-bottom: 12px;
+    }
+    
+    .why-high-performance-section .intro-text {
+        font-size: 15px;
+        margin-bottom: 30px;
+        padding: 0 15px;
+    }
+    
+    .why-high-performance-section .feature-card {
+        padding: 25px 20px;
+        margin-bottom: 15px;
+    }
+    
+    .why-high-performance-section .card-header {
+        margin-bottom: 20px;
+    }
+    
+    .why-high-performance-section .icon-circle {
+        width: 45px;
+        height: 45px;
+        margin-right: 12px;
+    }
+    
+    .why-high-performance-section .icon-circle i {
+        font-size: 20px;
+    }
+    
+    .why-high-performance-section .card-header h4 {
+        font-size: 20px;
+    }
+    
+    .why-high-performance-section .feature-card ul {
+        font-size: 15px;
+        line-height: 1.9;
+    }
+    
+    .why-high-performance-section .feature-card ul li {
+        padding-left: 25px;
+        margin-bottom: 8px;
+    }
+    
+    .why-high-performance-section .result-item {
+        padding: 15px;
+        margin-bottom: 12px;
+    }
+    
+    .why-high-performance-section .result-item strong {
+        font-size: 24px;
+    }
+    
+    .why-high-performance-section .result-item span {
+        font-size: 15px;
+    }
+    
+    .why-high-performance-section .result-item .company {
+        font-size: 13px;
+    }
+    
+    /* Mobile Apps Section */
+    .what-sets-apart-section {
+        padding: 50px 0;
+    }
+    
+    .what-sets-apart-section h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+        padding: 0 15px;
+    }
+    
+    .what-sets-apart-section .intro-text {
+        font-size: 15px;
+        margin-bottom: 35px;
+        padding: 0 15px;
+    }
+    
+    .what-sets-apart-section .stats-row {
+        margin-bottom: 30px;
+    }
+    
+    .what-sets-apart-section .stat-card {
+        padding: 30px 20px;
+        margin-bottom: 20px;
+    }
+    
+    .what-sets-apart-section .stat-icon {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 15px;
+    }
+    
+    .what-sets-apart-section .stat-icon i {
+        font-size: 28px;
+    }
+    
+    .what-sets-apart-section .stat-number {
+        font-size: 42px;
+        margin-bottom: 8px;
+    }
+    
+    .what-sets-apart-section .stat-number span {
+        font-size: 28px;
+    }
+    
+    .what-sets-apart-section .stat-title {
+        font-size: 16px;
+    }
+    
+    .what-sets-apart-section .stat-subtitle {
+        font-size: 13px;
+        margin-top: 8px;
+    }
+    
+    .what-sets-apart-section .dark-footer-box {
+        padding: 25px 20px;
+    }
+    
+    .what-sets-apart-section .achievement-item {
+        margin-bottom: 15px;
+    }
+    
+    .what-sets-apart-section .achievement-item i {
+        font-size: 20px;
+        margin-right: 12px;
+        flex-shrink: 0;
+    }
+    
+    .what-sets-apart-section .achievement-item p {
+        font-size: 15px;
+    }
+    
+    /* App Capabilities Section */
+    .app-capabilities-section {
+        padding: 50px 0;
+    }
+    
+    .app-capabilities-section h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+        padding: 0 15px;
+    }
+    
+    .app-capabilities-section .subtitle {
+        font-size: 15px;
+        margin-bottom: 40px;
+        padding: 0 15px;
+    }
+    
+    .app-capabilities-section .capability-card {
+        padding: 30px 20px;
+        margin-bottom: 20px;
+        min-height: auto;
+    }
+    
+    .app-capabilities-section .capability-card.featured {
+        transform: scale(1);
+        margin-bottom: 20px;
+    }
+    
+    .app-capabilities-section .capability-card:hover,
+    .app-capabilities-section .capability-card.featured:hover {
+        transform: translateY(-5px);
+    }
+    
+    .app-capabilities-section .decorative-circle {
+        width: 100px;
+        height: 100px;
+        top: -30px;
+        right: -30px;
+    }
+    
+    .app-capabilities-section .capability-icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+    
+    .app-capabilities-section .capability-icon i {
+        font-size: 28px;
+    }
+    
+    .app-capabilities-section .capability-card h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .app-capabilities-section .capability-card ul {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+    
+    .app-capabilities-section .capability-card ul li {
+        padding-left: 22px;
+        margin-bottom: 10px;
+    }
+    
+    .app-capabilities-section .capability-badge {
+        margin-top: 15px;
+        padding-top: 15px;
+    }
+    
+    .app-capabilities-section .capability-badge span {
+        font-size: 12px;
+    }
+    
+    .app-capabilities-section .popular-badge {
+        padding: 4px 12px;
+    }
+    
+    .app-capabilities-section .popular-badge span {
+        font-size: 11px;
+    }
+    
+    /* Industries Section */
+    .industries-section {
+        padding: 50px 0;
+    }
+    
+    .industries-section .section-title-underline {
+        font-size: 26px;
+        margin-bottom: 12px;
+        padding-bottom: 15px;
+    }
+    
+    .industries-section .section-title-underline .underline {
+        width: 60px;
+        height: 3px;
+    }
+    
+    .industries-section .industries-cards-row {
+        margin-top: 40px;
+    }
+    
+    .industries-section .industry-card {
+        margin-bottom: 20px;
+        min-height: auto;
+    }
+    
+    .industries-section .industry-card .icon-circle {
+        width: 45px;
+        height: 45px;
+        top: 15px;
+        right: 15px;
+    }
+    
+    .industries-section .industry-card .icon-circle i {
+        font-size: 18px;
+    }
+    
+    .industries-section .industry-card .card-content {
+        padding: 25px 20px;
+    }
+    
+    .industries-section .industry-card h4 {
+        font-size: 18px;
+        margin-bottom: 15px;
+        padding-right: 0px;
+    }
+    
+    .industries-section .industry-card p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .why-high-performance-section h2,
+    .what-sets-apart-section h2,
+    .app-capabilities-section h2,
+    .industries-section .section-title-underline {
+        font-size: 24px;
+    }
+    
+    .why-high-performance-section .intro-text,
+    .what-sets-apart-section .intro-text,
+    .app-capabilities-section .subtitle {
+        font-size: 14px;
+    }
+    
+    .what-sets-apart-section .stat-number {
+        font-size: 38px;
+    }
+    
+    .what-sets-apart-section .stat-number span {
+        font-size: 24px;
+    }
+    
+    .app-capabilities-section .capability-card h3 {
+        font-size: 18px;
+    }
+    
+    .what-sets-apart-section .dark-footer-box {
+        padding: 20px 15px;
+    }
+    
+    .what-sets-apart-section .achievement-item p {
+        font-size: 14px;
+    }
+}
+
+/* ========================================
+   FAQ SECTION - UNIFIED STYLES
+   ======================================== */
+
+.faq-section {
+    padding: 60px 0;
+    background: #f8f8f8;
+}
+
+.faq-section h2 {
+    font-family: sf-ui-display-bold;
+    font-size: 36px;
+    color: #191727;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.faq-card {
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    transition: all 0.3s ease;
+}
+
+.faq-card:hover {
+    box-shadow: 0 4px 12px rgba(232,42,42,0.1);
+}
+
+.faq-card-header {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.faq-card-header .btn-link {
+    font-family: sf-ui-display-bold;
+    font-size: 17px;
+    color: #191727;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    background: transparent;
+    transition: color 0.3s ease;
+        font-weight: bold;
+}
+
+.faq-card-header .btn-link:hover,
+.faq-card-header .btn-link:focus {
+    color: #e82a2a;
+    text-decoration: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.faq-card-header .btn-link::after {
+    content: '+';
+    font-size: 24px;
+    font-weight: 300;
+    color: #e82a2a;
+    transition: transform 0.3s ease;
+}
+
+.faq-card-header .btn-link:not(.collapsed)::after {
+    content: '−';
+    transform: rotate(0deg);
+}
+
+.faq-card-body {
+    padding: 0 25px 25px 25px;
+    font-family: SF-UI-Display-Regular;
+    font-size: 15px;
+    color: #666;
+    line-height: 1.7;
+}
+
+.faq-card-body p {
+    margin-bottom: 12px;
+}
+
+.faq-card-body p:last-child {
+    margin-bottom: 0;
+}
+
+.faq-card-body ul {
+    margin: 12px 0;
+    padding-left: 20px;
+}
+
+.faq-card-body ul li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.faq-card-body strong {
+    color: #191727;
+    font-weight: 600;
+}
+
+/* FAQ Responsive */
+@media (max-width: 767px) {
+    .faq-section {
+        padding: 40px 0;
+    }
+    
+    .faq-section h2 {
+        font-size: 26px;
+        margin-bottom: 35px;
+        padding: 0 15px;
+    }
+    
+    .faq-card {
+        margin-bottom: 12px;
+    }
+    
+    .faq-card-header .btn-link {
+        font-size: 16px;
+        text-wrap: auto;
+        padding: 18px 20px;
+    }
+    
+    .faq-card-header .btn-link::after {
+        font-size: 22px;
+    }
+    
+    .faq-card-body {
+        padding: 0 20px 20px 20px;
+        font-size: 14px;
+    }
+    
+    .faq-card-body ul {
+        padding-left: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .faq-section h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    
+    .faq-card-header .btn-link {
+        font-size: 15px;
+        padding: 16px 18px;
+    }
+    
+    .faq-card-body {
+        padding: 0 18px 18px 18px;
+        font-size: 14px;
+    }
+}
+
+/* Digital Marketing Page (Style2025) */
+.marketing_dev_dev_class .dm-hero {
+    background: #F5F5F5;
+}
+
+.marketing_dev_dev_class .dm-hero-title {
+    font-family: sf-ui-display-bold;
+    font-size: 48px;
+    color: #191727;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.marketing_dev_dev_class .dm-hero-subtitle {
+    font-family: SF-UI-Display-Regular;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #191727;
+    margin-bottom: 20px;
+}
+
+.marketing_dev_dev_class .dm-proof-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.marketing_dev_dev_class .dm-proof-badge {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-family: SF-UI-Display-Regular;
+    color: #191727;
+}
+
+.marketing_dev_dev_class .dm-hero-cta {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.marketing_dev_dev_class .dm-cta-secondary {
+    border: none;
+}
+
+.marketing_dev_dev_class .dm-cta-secondary-icon {
+    background: #e82a2a;
+    color: #fff;
+}
+
+.marketing_dev_dev_class .dm-system-list {
+    margin-top: 20px;
+}
+
+.marketing_dev_dev_class .dm-proof-list {
+    margin-top: 15px;
+}
+
+.marketing_dev_dev_class .dm-clutch-section {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.marketing_dev_dev_class .dm-clutch-title {
+    font-family: sf-ui-display-bold;
+    font-size: 42px;
+    color: #191727;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.marketing_dev_dev_class .dm-clutch-subtitle {
+    font-family: SF-UI-Display-Regular;
+    font-size: 18px;
+    color: #191727;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px;
+}
+
+.marketing_dev_dev_class .dm-clutch-card {
+    padding: 40px;
+    background: #f8f8f8;
+    border-radius: 8px;
+    min-height: 280px;
+}
+
+.marketing_dev_dev_class .dm-clutch-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.marketing_dev_dev_class .dm-clutch-grid .dm-clutch-card {
+    width: calc(33.333% - 14px);
+}
+
+@media (max-width: 991px) {
+    .marketing_dev_dev_class .dm-clutch-grid .dm-clutch-card {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 575px) {
+    .marketing_dev_dev_class .dm-clutch-grid .dm-clutch-card {
+        width: 100%;
+    }
+}
+
+.marketing_dev_dev_class .dm-clutch-client {
+    font-family: sf-ui-display-bold;
+    font-size: 18px;
+    color: #191727;
+    margin-bottom: 10px;
+}
+
+.marketing_dev_dev_class .dm-clutch-rating {
+    font-family: sf-ui-display-bold;
+    color: #e82a2a;
+}
+
+.marketing_dev_dev_class .dm-clutch-service,
+.marketing_dev_dev_class .dm-clutch-outcome {
+    font-family: SF-UI-Display-Regular;
+    font-size: 15px;
+    color: #191727;
+    margin-bottom: 6px;
+}
+
+.marketing_dev_dev_class .dm-clutch-quote {
+    font-family: SF-UI-Display-Regular;
+    font-size: 16px;
+    color: #191727;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.marketing_dev_dev_class .dm-clutch-engagement {
+    font-family: SF-UI-Display-Regular;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.marketing_dev_dev_class .dm-clutch-link {
+    font-family: sf-ui-display-bold;
+    color: #e82a2a;
+}
+
+.marketing_dev_dev_class .dm-form-row {
+    padding: 5px;
+}
+
+.marketing_dev_dev_class .dm-hidden {
+    display: none;
+}
+
+.marketing_dev_dev_class .dm-hidden-field {
+    position: absolute;
+    left: -5000px;
+}

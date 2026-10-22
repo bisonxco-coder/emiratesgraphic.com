@@ -1,0 +1,49 @@
+/node_modules
+/vendor
+/storage/*.key
+/storage/app
+/storage/framework/sessions
+/storage/framework/cache
+/storage/framework/views
+/storage/logs
+/.env
+/.env.backup
+/.env.local
+/public/storage
+/public/hot
+/public/build
+
+# Backup & archives – mos i fut në Git
+*.zip
+*.rar
+*.7z
+
+npm-debug.log
+yarn-error.log
+composer.phar
+
+.DS_Store
+Thumbs.db
+
+.idea
+.vscode
+*.log
+
+# --- added 2026-10-23 (git init, TF03) ---
+*.sql
+*.sql.gz
+*.tar.gz
+/database backup/
+error_log
+/public/error_log
+/storage/*
+!/storage/.gitignore
+# large media kept out of git (they are in eg_backups/2026-10-23/full tar)
+*.mp4
+*.MP4
+*.mov
+*.MOV
+/public/pdf/
+node_modules/
+# separate embedded repo (client project)
+/public/client/pa360/

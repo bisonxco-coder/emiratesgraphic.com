@@ -1,0 +1,73 @@
+.container_s {
+    background-image: url('../img/Group 387870200.png');
+    background-position: bottom;
+    background-size: cover;
+}
+
+.container_s .header {
+    padding: 30px 6%;
+}
+
+.bodyholder {
+    width: 100%;
+    min-height: 100vh;
+    color: white;
+    padding: 0px 6%;
+    padding-top: 40vh;
+}
+
+.small_card .rr {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.logotop {
+    height: 50px;
+}
+
+.bodyholder h3 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 130%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.bodyholder p {
+    margin-bottom: 0px;
+    font-weight: 100 !important;
+}
+
+
+/*Only on Mobile*/
+@media only screen and (max-width: 1000px) {
+    .mobile-d-n {
+        display: none;
+    }
+
+    .bodyholder {
+        padding-top: 10vh;
+    }
+
+    .bodyholder h3 {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 100px;
+        line-height: 130%;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .small_card .rr {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .small_card .rr p {
+        text-align: center;
+    }
+}

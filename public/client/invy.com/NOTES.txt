@@ -1,0 +1,98 @@
+NOTES
+
+U bëra ndryshimet që mund të bëheshin pa pritur klientin:
+
+Çfarë u implementua
+1. Hero copy
+Teksti i ri: “Discover clubs, events, and nightlife experiences in one app.”
+
+2. Support email
+hello@invy.app → info@invyapp.ae (footer Contact Us)
+
+3. Featured Events & Featured Venues
+Të fshehura në homepage derisa të ketë content real nga CMS.
+
+4. Newsletter
+Seksioni “Stay on the list” i fshehur në footer për launch.
+
+5. Store buttons
+Hero, events, venues, CTA: shkojnë te #download derisa të jenë URL live.
+Gallery (INVY GETS YOU IN.): badge “Coming soon”, jo link i vdekur — bëhen klikueshme kur $invyAppStoreUrl / $invyPlayStoreUrl vendosen në site-config.php.
+
+6. Konfigurim central
+includes/site-config.php — kur të jenë gati, ndryshon vetëm aty:
+$invyShowFeaturedEvents = true
+$invyShowFeaturedVenues = true
+$invyShowNewsletter = true
+$invyAppStoreUrl / $invyPlayStoreUrl = URL live
+
+7. Footer i ri (feedback 26 Gusht — Mathieu)
+Tagline: “Nightlife in your pocket. One app. Your night out — handled.”
+Copyright: © 2026 Invy FZC. All rights reserved.
+Explore: Events, Venues (Blog u hoq)
+Company: About INVY, How It Works, List Your Venue
+Support: Help Center, Contact Us
+Legal links në rresht të veçantë poshtë: Terms, Privacy, Refund, Account Deletion
+Strukturë e ngjashme me Shotgun (pa kopjuar dizajnin)
+E njëjta logjikë në desktop dhe mobile
+
+8. Gjuha / RTL
+Selector në footer: English, Français, العربية
+Arabisht aktivizon RTL (css/rtl.css + localStorage invy-lang)
+Përkthimi i plotë i tekstit (EN/FR/AR) pret CMS ose skedarë i18n
+
+9. App Store / social në footer
+Struktura gati — shfaqen vetëm kur URL-të vendosen në site-config.php:
+$invyAppStoreUrl, $invyPlayStoreUrl
+$invySocialLinks (Instagram, TikTok, LinkedIn, etj.)
+
+10. Book Table
+Nuk bën checkout në website — shkon te #download (Download the App).
+
+11. Venue cards (venues.php)
+Kartat simetrike (aspect-ratio 16:10, pill brenda kartës).
+
+12. How INVY Works (how-it-works.php) — feedback Mathieu
+Hero: titulli “HOW INVY WORKS” mbetet; nëntitulli i ri: “From discovering the night to getting through the door — here's how INVY works.”
+Kollazhi i fotove: lartësi e reduktuar (desktop + mobile) që përdoruesi të arrijë më shpejt te hapat.
+Seksioni i errët “EVERY PART OF THE NIGHT, HANDLED.” — 4 karta të reja:
+  Discover — browse venues/events/DJ sets by date, genre, vibe
+  Book — ticket ose table, konfirmim në sekonda
+  Keep it together — tickets, reservations, upcoming nights në një vend
+  Enjoy — booking/ticket gati kur arrin, pa logjistikë
+U hoqën: INVITE, AED 250 referral, VVIP, bottles, Apple Pay, queue-skipping, “every venue/event”
+Teksti në kartat e errëta: më i madh (15px) dhe më i lexueshëm (#b8b8b8)
+Gallery: “INVY GETS YOU IN.” mbetet; App Store / Play = Coming soon derisa URL live
+CTA fund faqeje: “Your next night out starts here.” + copy i ri; butonat Download the App + List Your Venue
+Skedarë: how-it-works.php, css/how-it-works.css, includes/gallery.php, includes/site-config.php (invy_store_url_ready)
+
+---
+
+Konfigurim shtesë (site-config.php)
+$invySupportEmail = 'info@invyapp.ae'
+$invyHelpCenterUrl = 'mailto:info@invyapp.ae' (ndërro kur të ketë Help Center real)
+$invyVenueOnboardingUrl = './venues.php#for-venues' (ndërro kur të ketë URL onboarding)
+$invyShowNewsletter = false (true kur forma të jetë funksionale)
+
+---
+
+Çfarë mbetet (pret klientin)
+Mockup PNG (hero + features) — datat e përditësuara në PNG: Oct 17, 2026 + Dubai, UAE (backup: img/*.bak.png)
+URL live App Store / Google Play (pastaj vendos në site-config.php — badge në gallery bëhen link automatikisht)
+URL finale onboarding “List Your Venue” (venues.php CTA i brendshëm ende # në disa vende)
+CMS + evente/venues reale (ose fshehja e Featured derisa të jenë gati)
+Newsletter funksional (forma action="#" — nuk ruan email)
+QA në telefon fizik para domain-it kryesor
+Konfirmim që featured content menaxhohet nga Admin CMS
+Përkthime të plota FR/AR (përveç RTL layout)
+Help Center real (aktualisht mailto:info@invyapp.ae)
+Social icons (fshehur derisa URL në $invySocialLinks)
+About page: ende ka copy të vjetër (VVIP, AED 250 referral) — nuk u prek në këtë rund; mund të harmonizohet me How It Works nëse klienti e kërkon
+
+---
+
+Test lokal
+php -S localhost:9000 (ose :3000)
+Homepage: nuk duhet Featured Events/Venues, newsletter i fshehur
+Footer: Help Center + Contact Us te Support; legal poshtë; language selector
+How It Works: http://localhost:9000/how-it-works.php — karta të reja, collage më i shkurtër, Coming soon te store badges, CTA i ri në fund

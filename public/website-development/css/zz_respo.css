@@ -1,0 +1,126 @@
+@media only screen and (min-width: 1000px) {
+    .desktop-d-n {
+        display: none;
+    }
+
+}
+
+
+/*Only on Mobile*/
+@media only screen and (max-width: 1000px) {
+    .mobile-d-n {
+        display: none;
+    }
+
+    .container-fluid {
+        padding: 0px 3% !important;
+    }
+
+    .images_float .mobile {
+        display: none;
+    }
+
+    .images_float .desktop {
+        position: relative;
+    }
+
+    .mob_mob_des .floatcard_f {
+        position: unset;
+    }
+
+    .mob_mob_des img {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .navigation_bar .row {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .button_default {
+        min-width: 200px;
+    }
+
+    .cover_main {
+        height: 100%;
+        min-height: 100%;
+
+    }
+
+    .body_text_cover .row {
+        height: 100%;
+        min-height: 100%;
+        padding-bottom: 30px;
+    }
+
+    .button_hoder {
+        display: block;
+    }
+
+    .button_hoder button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .button_hoder button i {
+        margin: 0px 10px;
+    }
+
+    .big_img img {
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .service_card {
+        padding: 70px 30px;
+    }
+
+    .process_section .rellax {
+        transform: translate(0px) !important;
+    }
+
+    .process_section h5 {
+        transform: rotate(0deg);
+    }
+
+    .hold_oe {
+        width: 100%;
+        margin: 15px 0px;
+    }
+
+    .contact_section {
+        padding-bottom: 30px;
+    }
+    footer {
+        padding: 10% 0px;
+    }
+    footer .row .col-md-3 {
+        flex-wrap: wrap;
+        display: flex;
+    }
+    footer h5 {
+        margin: 30px 0px 20px;
+        width: 100%;
+    }
+    footer .row .col-md-3 p {
+        width: 40%;
+    }
+
+    footer .copyright {
+        margin-top: 30px;
+    }
+    .button_car_hold {
+        position: relative;
+        bottom: 0px;
+    }
+
+    
+    .button_car_hold {
+        position: relative;
+        top: -7%;
+        right: -4%;
+    }
+
+}

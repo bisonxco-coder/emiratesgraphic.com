@@ -1,0 +1,522 @@
+<style>
+  /* Client resets */
+  html,
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+  }
+  * {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  table,
+  td {
+    mso-table-lspace: 0pt !important;
+    mso-table-rspace: 0pt !important;
+  }
+  table {
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+    table-layout: fixed !important;
+    margin: 0 auto !important;
+  }
+  img {
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    display: block;
+    height: auto;
+    line-height: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  /* iOS blue links */
+  a[x-apple-data-detectors],
+  .unstyle-auto-detected-links a,
+  .aBn {
+    border-bottom: 0 !important;
+    cursor: default !important;
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+
+  /* Gmail */
+  u + #body a {
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+  }
+
+  /* Responsive */
+  @media screen and (max-width: 620px) {
+    .container {
+      width: 100% !important;
+    }
+    .px-24 {
+      padding-left: 16px !important;
+      padding-right: 16px !important;
+    }
+    .card {
+      border-radius: 18px !important;
+    }
+    .hero {
+      border-radius: 14px !important;
+    }
+    .h1 {
+      font-size: 26px !important;
+      line-height: 32px !important;
+    }
+    .body-copy {
+      font-size: 15px !important;
+      line-height: 22px !important;
+    }
+    .btn {
+      width: 100% !important;
+    }
+  }
+
+  /* Template styles (no inline styles in markup) */
+  .preheader {
+    display: none;
+    font-size: 1px;
+    line-height: 1px;
+    max-height: 0;
+    max-width: 0;
+    opacity: 0;
+    overflow: hidden;
+    mso-hide: all;
+  }
+
+  .bg {
+    background-color: #eaf3f2;
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+
+  .center-pad {
+    padding: 18px 12px;
+  }
+
+  .outer {
+    width: 600px;
+    max-width: 600px;
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+
+  .shell {
+    background-color: #ffffff;
+    border-radius: 22px;
+    overflow: hidden;
+  }
+
+  .topbar {
+    line-height: 0;
+    height: 64px;
+    background-color: #ffffff;
+    background-image: url("Mask%20Group%201.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+  }
+
+  /* Smaller screens: keep image readable */
+  @media screen and (max-width: 620px) {
+    .topbar {
+      background-position: center top;
+    }
+  }
+
+  .topbar-inner {
+    height: 64px;
+  }
+
+  .logo {
+    width: 180px;
+    height: 34px;
+    padding: 20px 0 5px 20px;
+  }
+
+  .pad-card {
+    padding: 0 24px 24px 24px;
+  }
+
+  .card {
+    background-color: #ffffff;
+    border-radius: 22px;
+    overflow: hidden;
+  }
+
+  .hero-wrap {
+    padding: 16px;
+  }
+
+  .hero {
+    width: 100%;
+    max-width: 568px;
+    border-radius: 16px;
+    height: 268px;
+    object-fit: cover;
+  }
+
+  .t-center {
+    text-align: center;
+  }
+
+  .copy {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1a1a1a;
+  }
+
+  .pad-6-28-0 {
+    padding: 6px 28px 0 28px;
+  }
+
+  .pad-14-28-0 {
+    padding: 14px 28px 0 28px;
+  }
+
+  .pad-16-28-0 {
+    padding: 16px 28px 0 28px;
+  }
+
+  .pad-6-28-0-t {
+    padding: 6px 28px 0 28px;
+  }
+
+  .pad-6-60-0 {
+    padding: 6px 60px 0 60px;
+  }
+
+  .pad-10-60-0 {
+    padding: 10px 60px 0 60px;
+  }
+
+  .pad-18-28-0 {
+    padding: 18px 28px 0 28px;
+  }
+
+  .body-copy {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .fw-400 {
+    font-weight: 400;
+  }
+
+  .fw-700 {
+    
+  }
+
+  .pt-12 {
+    padding-top: 12px;
+  }
+
+  .h1 {
+    font-size: 28px;
+    line-height: 34px;
+    
+    margin-top: 10px;
+  }
+
+  .small {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .ps {
+    padding: 16px 28px 22px 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2a2a2a;
+    text-align: center;
+  }
+
+  .btn-wrap {
+    padding: 20px 28px 0 28px;
+    text-align: center;
+  }
+
+  .btn {
+    display: inline-block;
+    background-color: #71cfc4;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 46px;
+    
+    border-radius: 999px;
+    padding: 0 34px;
+    text-align: center;
+  }
+
+  .footer {
+    padding: 10px 10px;
+    background-color: #F2F2F3;
+    margin-top: 14px;
+  }
+
+  .footer-icons {
+    padding: 8px 0 0 0;
+    text-align: center;
+  }
+
+  .icon-pad {
+    padding: 0 6px;
+  }
+
+  .icon {
+    border-radius: 999px;
+  }
+
+  .footer-copy {
+    padding: 12px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5a6b6a;
+    text-align: center;
+  }
+
+  .footer-link {
+    color: #5a6b6a;
+    text-decoration: none;
+  }
+
+  .footer-unsub {
+    padding: 10px 0 16px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  .footer-unsub a {
+    color: #5a6b6a;
+    text-decoration: underline;
+  }
+</style>
+
+<!-- Preheader (hidden) -->
+<div class="preheader">
+  Luvea is live - download the app and step into better dating.
+</div>
+
+<table role="presentation" class="bg" width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <td align="center" class="center-pad">
+          <!-- Outer container -->
+          <table role="presentation" class="container outer" width="600" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td class="shell">
+                <!-- Header background image -->
+                <!--[if mso]>
+                  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:64px;">
+                    <v:fill type="frame" src="Mask%20Group%201.png" color="#ffffff" />
+                    <v:textbox inset="0,0,0,0">
+                <![endif]-->
+                <div class="topbar">
+                  <div class="topbar-inner">
+                    <!-- Logo -->
+                    <img src="logo.svg" alt="Luvea" class="logo" />
+                  </div>
+                </div>
+                <!--[if mso]>
+                    </v:textbox>
+                  </v:rect>
+                <![endif]-->
+
+                <!-- Logo row -->
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                </table>
+
+                <!-- Card -->
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td class="px-24 pad-card">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="card">
+                        <tr>
+                          <td class="hero-wrap">
+                            <!-- Hero image -->
+                            <img
+                              class="hero"
+                              src="ef7c2bd43085c00188c98462c4aee59bc1cc56b1.png"
+                              width="568"
+                              alt="Luvea"
+                            />
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td class="px-24 pad-6-28-0 t-center copy">
+                            <div class="body-copy fw-400">Hey,</div>
+                            <div class="h1">it's time.</div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td class="px-24 body-copy pad-14-28-0 t-center copy">
+                            <div class="fw-700">Luvea is now officially live on the App Store and Google Play.</div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td class="px-24 body-copy pad-14-28-0 t-center copy">
+                            What started as an idea is now a fully realised experience - designed for people who want something more than just another swipe.
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td class="px-24 body-copy pad-14-28-0 t-center copy">
+                            <span class="fw-700">Download the app and step into Luvea.</span>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td class="px-24 body-copy pad-16-28-0 t-center copy">
+                            This is dating, elevated:
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td class="px-24 pad-6-60-0 copy body-copy">
+                            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                              <tr>
+                                <td class="t-center">
+                                  <div>&bull; Thoughtful connections</div>
+                                  <div>&bull; Real date proposals</div>
+                                  <div class="pt-12">&bull; A more intentional experience</div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td class="px-24 body-copy pad-14-28-0 t-center copy">
+                            And because you're one of our early members, you're stepping in at the perfect time.
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td class="px-24 pad-10-60-0 copy body-copy">
+                            <div class="t-center">
+                              <div>Early access</div>
+                              <div>Higher visibility</div>
+                              <div>A more curated community</div>
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td class="px-24 body-copy pad-16-28-0 t-center copy">
+                            No noise. No endless scrolling.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="px-24 body-copy pad-6-28-0 t-center copy">
+                            Just better dating.
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td class="px-24 body-copy pad-16-28-0 t-center copy">
+                            <span class="fw-700">Join now and see what Luvea is all about.</span>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td class="pad-18-28-0 t-center copy">
+                            <div class="small">Sophie</div>
+                            <div class="small">Luvea Team</div>
+                          </td>
+                        </tr>
+
+                        <!-- Button -->
+                        <tr>
+                          <td align="center" class="btn-wrap">
+                            <!--[if mso]>
+                              <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{cta_url}}" style="height:46px;v-text-anchor:middle;width:220px;" arcsize="50%" stroke="f" fillcolor="#71cfc4">
+                                <w:anchorlock/>
+                                <center style="color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:700;">
+                                  Download App
+                                </center>
+                              </v:roundrect>
+                            <![endif]-->
+                            <!--[if !mso]><!-- -->
+                            <a class="btn" href="{{cta_url}}">
+                              Download App
+                            </a>
+                            <!--<![endif]-->
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td class="ps">
+                            P.S. The experience starts the moment you log in.
+                          </td>
+                        </tr>
+                      </table>
+
+                      <!-- Footer -->
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="footer">
+                        <tr>
+                          <td align="center" class="footer-icons">
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                              <tr>
+                                <td class="icon-pad">
+                                  <a href="{{facebook_url}}" aria-label="Facebook">
+                                    <img class="icon" src="fb.png" width="40" height="40" alt="Facebook" />
+                                  </a>
+                                </td>
+                                <td class="icon-pad">
+                                  <a href="{{youtube_url}}" aria-label="YouTube">
+                                    <img class="icon" src="ig.png" width="40" height="40" alt="YouTube" />
+                                  </a>
+                                </td>
+                                <td class="icon-pad">
+                                  <a href="{{instagram_url}}" aria-label="Instagram">
+                                    <img class="icon" src="yt.png" width="40" height="40" alt="Instagram" />
+                                  </a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td align="center" class="footer-copy">
+                            <a class="footer-link" href="mailto:{{support_email}}">{{support_email}}</a><br />
+                            © Copyright 2026 · Luvea
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td align="center" class="footer-unsub">
+                            <a href="%%unsubscribe%%">Unsubscribe</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>

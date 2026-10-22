@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'sf-ui-display-thin';
+    src: url('../fonts/sf-ui-display-thin-58646e9b26e8b.otf');
+}
+
+.wide_portfolio {
+    min-width: 65% !important;
+    padding-bottom: 0px !important;
+}
+
+.background_wide {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 7% 40px 0px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.background_wide .tag {
+    border-radius: 10px;
+    width: auto;
+    font-size: 20px;
+    padding: 10px 25px;
+    font-family: 'sf-ui-display-light';
+    display: block;
+    margin-bottom: 35px;
+}
+
+.background_wide h2 {
+    margin-bottom: 40px;
+    font-family: 'sf-ui-display-semibold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0976188px;
+}
+
+.txt_holder {
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.phoneholder {
+    width: 60%;
+    display: block;
+    text-align: right;
+}
+.phoneholder.end {
+    align-self: end;
+}
+
+.phoneholder img {
+    width: 90%;
+    z-index: 1;
+    position: relative;
+    transition: ease all .3s;
+}
+
+.background_wide:hover img {
+    transform: scale(1.05);
+    transition: ease all .3s;
+}
+
+.rotatebg {
+    position: absolute;
+    top: -30%;
+    right: -30%;
+    z-index: 0;
+    animation: rotate-animation 20s infinite linear;
+    opacity: 0.3;
+    width: 900px;
+}
+
+@keyframes rotate-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.figma {
+    background: white;
+    border-radius: 50%;
+    border: none;
+    padding: 0px;
+    transition: ease all 0.2s;
+}
+
+.screens {
+    background: white;
+    border-radius: 20px;
+    border: none;
+    padding: 14px 20px;
+    margin-left: 10px;
+    font-family: 'sf-ui-display-bold';
+    transition: ease all 0.2s;
+}
+
+.figma:hover,
+.screens:hover {
+    transition: ease all 0.2s;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+
+.view_case {
+    color: white;
+    width: 70%;
+    margin-top: 40px;
+    font-family: 'sf-ui-display-light';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 140%;
+}
+
+.view_case img {
+    height: 22px;
+    margin-top: -5px;
+    transition: ease all 0.2s;
+}
+
+.view_case:hover {
+    color: #fff;
+    opacity: 0.9;
+}
+
+.view_case:hover img {
+    margin-left: 5px;
+    transition: ease all 0.2s;
+}
+
+.u_wide {
+    width: 135% !important;
+}
+
+/* Contact Section Everywhere Option */
+.new_contact_section h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 30px;
+    width: 90%;
+}
+.contact_dark_section_new {
+    width: 50%;
+}
+.new_contact_section {
+    min-width: 100% !important;
+    font-family: 'sf-ui-display-light';
+    width: 100%;
+    align-items: flex-end !important;
+    background: #1C1D20; 
+    padding: 50px 100px !important;
+    background-image: url('../img/home/world_ex.png');
+    background-size: 75% !important;
+    background-position: 150% 60% !important;
+    flex-wrap: nowrap !important;
+}
+
+.new_contact_section .input_rows {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap !important;
+    justify-content: space-between;
+}
+
+.rows_beta {
+    width: 90%;
+}
+
+.new_contact_section .input_rows input,
+.new_contact_section .input_rows textarea,
+.new_contact_section .input_rows select {
+    padding: 12px 10px !important;
+    border-radius: 6px;
+    font-size: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    color: rgba(255, 255, 255, 0.397);
+    margin: 0px 0px 10px;
+}
+
+.new_contact_section .input_rows option {
+    background-color: rgb(88, 88, 88);
+}
+.rows_beta .button_submit_a {
+    width: 100% !important;
+    border-radius: 6px;
+}
+.input_rows .group {
+    display: flex;
+    flex-wrap: wrap;
+    width: 49%;
+}
+
+.input_rows .group label {
+    margin-bottom: 3px;
+}
+
+.footer_row_contact_.nd {
+    align-self: flex-end; 
+    width: 45%;
+    border: none;
+}
+
+.contact_icons a {
+    margin-left: 5px;
+}
+
+.view_portfolio {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+}
+.view_portfolio a {
+    color: white;
+    font-family: 'sf-ui-display-light';
+    font-size: 24px;
+}
+
+.view_portfolio img {
+    /* width: 30px; */
+    margin-left: -25px;
+    transition: ease all 0.3s;
+}
+
+
+.view_portfolio:hover img {
+    margin-right: -15px;
+    transition: ease all 0.3s;
+}

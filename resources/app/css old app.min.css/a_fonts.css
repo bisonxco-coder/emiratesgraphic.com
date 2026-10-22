@@ -1,0 +1,107 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+* {
+  outline: none !important;
+}
+ 
+@font-face {
+  font-family: 'sf-ui-display-bold';
+  src: url('../fonts/sf-ui-display-bold-58646a511e3d9.otf');
+ }
+@font-face {
+  font-family: 'sf-ui-display-semibold';
+  src: url('../fonts/sf-ui-display-semibold-58646eddcae92.otf');
+ }
+@font-face {
+  font-family: 'SF-UI-Display-Regular';
+  src: url('../fonts/SF-UI-Display-Regular.otf');
+ }
+ @font-face {
+  font-family: 'sf-ui-display-heavy';
+  src: url('../fonts/sf-ui-display-heavy-586470160b9e5.otf');
+ }
+ @font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../fonts/Poppins-Bold.ttf');
+ }
+ @font-face {
+  font-family: 'sf-ui-display-light';
+  src: url('../fonts/sf-ui-display-light-58646b33e0551.otf');
+ }
+ @font-face {
+  font-family: 'sf-ui-display-black';
+  src: url('../fonts/sf-ui-display-black-58646a6b80d5a.otf');
+ }
+body {  
+  font-family: Open Sans arial !important;
+}
+
+p {
+  font-family: SF-UI-Display-Regular;
+  font-weight: 200 !important;
+}
+
+button:active {
+  outline: none !important;
+}
+button:focus {
+  outline: none !important;
+}
+input:active {
+  outline: none !important;
+}
+input:focus {
+  outline: none !important;
+}
+
+a button:hover {
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+textarea:active {
+  outline: none !important;
+}
+textarea:focus {
+  outline: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.no_padding {
+  padding: 0px !important;
+}
+
+.small_padding-lr {
+  padding: 0px 5px !important;
+}
+
+.hr_default {
+  width: 150px;
+  margin: 15px 0px;
+  border-top: solid 2px #BBAC78;
+}
+
+.no_foot footer {
+  display: none !important;
+}
+
+.mobile_shape_shadow {  
+  box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -7px rgba(0,0,0,0.2);
+  border-radius: 40px;
+}

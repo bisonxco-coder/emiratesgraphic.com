@@ -1,0 +1,656 @@
+/* About Us */
+.about-page {
+  overflow-x: hidden;
+  background: #fff;
+}
+
+.about-page h1,
+.about-page h2,
+.about-page h3,
+.about-page p {
+  margin-top: 0;
+}
+
+.about-hero {
+  min-height: 800px;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  /* Replace with img/about-hero.png when available */
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.08) 30%, rgba(0, 0, 0, 0.76) 100%),
+    url("../img/events-hero.png") center / cover no-repeat,
+    #151515;
+}
+
+.about-hero__inner {
+  min-height: 700px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 58px;
+}
+
+.about-hero__copy {
+  width: 100%;
+  text-align: center;
+}
+
+.about-hero h1 {
+  margin-bottom: 18px;
+  font-size: clamp(54px, 6vw, 86px);
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: -0.065em;
+  text-transform: uppercase;
+}
+
+.about-hero p {
+  max-width: 490px;
+  margin: 0 auto 36px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.16;
+}
+
+.about-hero__copy > a {
+  min-width: 168px;
+  min-height: 58px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  color: #fff;
+  background: #191919;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.about-story {
+  padding: 105px 0 120px;
+  background: #fff;
+}
+
+.about-story__grid {
+  min-height: 730px;
+  position: relative;
+  max-width: var(--container);
+  margin-inline: auto;
+}
+
+.about-story__card {
+  position: absolute;
+  overflow: hidden;
+  border-radius: 14px;
+  color: #111;
+  background: #f4f4f4;
+}
+
+.about-story__card h2,
+.about-story__card strong {
+  display: block;
+  font-weight: 700;
+  letter-spacing: -0.06em;
+}
+
+.about-story__card p {
+  margin-bottom: 0;
+  font-weight: 500;
+  line-height: 1.06;
+}
+
+.about-story__card--people {
+  top: 0;
+  left: 12%;
+  width: 240px;
+  min-height: 164px;
+  padding: 36px;
+}
+
+.about-story__card--people strong {
+  margin-bottom: 14px;
+  font-size: 54px;
+  line-height: 0.85;
+}
+
+.about-story__card--people p {
+  font-size: 16px;
+}
+
+.about-story__card--story {
+  top: 4px;
+  right: 9%;
+  width: 280px;
+  min-height: 260px;
+  padding: 26px;
+  background:
+    radial-gradient(130% 40% at 25% 43%, rgba(255,255,255,.25) 0 48%, transparent 49%),
+    #b8e7fb;
+}
+
+.about-story__card--story h2,
+.about-story__card--mission h2 {
+  margin-bottom: 105px;
+  font-size: 25px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.about-story__card--story p {
+  font-size: 20px;
+}
+
+.about-story__title {
+  position: absolute;
+  top: 286px;
+  left: 50%;
+  margin: 0;
+  transform: translateX(-50%);
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 0.78;
+  letter-spacing: -0.075em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-story__card--mission {
+  top: 374px;
+  left: 0;
+  width: 310px;
+  min-height: 306px;
+  padding: 28px;
+  color: #fff;
+  background:
+    radial-gradient(120% 45% at 65% 24%, rgba(255,255,255,.04) 0 49%, transparent 50%),
+    #171717;
+}
+
+.about-story__card--mission h2 {
+  margin-bottom: 134px;
+}
+
+.about-story__card--mission p {
+  font-size: 18px;
+}
+
+.about-story__team {
+  width: 320px;
+  height: 168px;
+  position: absolute;
+  top: 338px;
+  right: 0;
+  border-radius: 14px;
+  /* Replace with img/about-team.png when available */
+  background:
+    url("../img/gallery-2.png") center / cover no-repeat,
+    #b7b594;
+}
+
+.about-story__card--cities {
+  top: 514px;
+  left: 38%;
+  width: 270px;
+  min-height: 172px;
+  padding: 40px 34px;
+  background: #cbeeff;
+}
+
+.about-story__card--cities strong {
+  margin-bottom: 14px;
+  font-size: 49px;
+  line-height: 0.9;
+}
+
+.about-story__card--cities p {
+  font-size: 16px;
+}
+
+.about-numbers {
+  padding: 0 26px 82px;
+  background: #fff;
+}
+
+.about-numbers__panel {
+  min-height: 610px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 38px;
+  color: #fff;
+  /* Replace with img/about-numbers-bg.png when available */
+  background:
+    linear-gradient(105deg, rgba(0, 7, 14, .45), rgba(0, 7, 14, .1)),
+    url("../img/cloud-bg.png") center / cover no-repeat,
+    #032136;
+}
+
+.about-numbers__intro {
+  position: absolute;
+  top: 72px;
+  left: 70px;
+}
+
+.about-numbers__intro h2 {
+  margin-bottom: 18px;
+  font-size: 39px;
+  line-height: 0.92;
+  letter-spacing: -0.06em;
+  text-transform: uppercase;
+}
+
+.about-numbers__intro p {
+  max-width: 480px;
+  color: rgba(255, 255, 255, .58);
+  font-size: 16px;
+  line-height: 1.15;
+}
+
+.about-numbers__brand {
+  width: 185px;
+  position: absolute;
+  left: 74px;
+  bottom: 82px;
+}
+
+.about-numbers__brand img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-stat {
+  width: 330px;
+  position: absolute;
+  right: 58px;
+  padding: 38px 32px;
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 38px;
+  background: rgba(0, 14, 25, .4);
+  backdrop-filter: blur(8px);
+}
+
+.about-stat--members {
+  top: 48px;
+  min-height: 252px;
+}
+
+.about-stat--revenue {
+  bottom: 18px;
+  min-height: 232px;
+}
+
+.about-stat strong {
+  display: block;
+  margin-bottom: 14px;
+  font-size: 55px;
+  line-height: .9;
+  letter-spacing: -.06em;
+}
+
+.about-stat p {
+  margin-bottom: 18px;
+  font-size: 17px;
+  line-height: 1.1;
+}
+
+.about-stat__members {
+  display: flex;
+}
+
+.about-stat__members span,
+.about-stat__members b {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  margin-left: -7px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: #999;
+}
+
+.about-stat__members span:first-child {
+  margin-left: 0;
+}
+
+.about-stat__members b {
+  background: #07121b;
+  font-size: 17px;
+}
+
+.about-stat__bar {
+  width: 100%;
+  height: 36px;
+  margin-top: 24px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #d0e5f2 0 70%, transparent 70%);
+  opacity: .75;
+}
+
+.about-services {
+  min-height: 720px;
+  padding: 70px 0 90px;
+  background: #fff;
+}
+
+.about-services__stage {
+  min-height: 580px;
+  position: relative;
+  max-width: var(--container);
+}
+
+.about-services__stage > h2 {
+  position: absolute;
+  top: 174px;
+  left: 50%;
+  margin: 0;
+  transform: translateX(-50%);
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -.07em;
+  text-transform: uppercase;
+}
+
+.about-service {
+  width: 210px;
+  min-height: 180px;
+  position: absolute;
+  overflow: hidden;
+  padding: 100px 18px 18px;
+  border: 1px solid #e8e8e8;
+  border-radius: 30px;
+  background: linear-gradient(#f1f1f1 0 42%, #fff 42%);
+  box-shadow: 0 2px 3px rgba(0,0,0,.06);
+}
+
+.about-service > span {
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: #fff;
+  background: #303030;
+  font-size: 24px;
+}
+
+.about-service h3 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  letter-spacing: -.05em;
+  text-transform: uppercase;
+}
+
+.about-service p {
+  margin-bottom: 0;
+  color: #989898;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.about-service--find {
+  top: 0;
+  left: 3%;
+}
+
+.about-service--book {
+  top: 244px;
+  left: 23%;
+}
+
+.about-service--crew {
+  top: 150px;
+  right: 3%;
+}
+
+.about-service--venue {
+  top: 375px;
+  right: 24%;
+}
+
+.about-quote {
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  background:
+    radial-gradient(circle at 65% 55%, rgba(126, 70, 207, .7), transparent 40%),
+    radial-gradient(circle at 15% 80%, #12cce7, transparent 46%),
+    linear-gradient(180deg, #02040e, #273ea9 68%, #d6e8ff);
+}
+
+.about-quote::before {
+  content: "“";
+  position: absolute;
+  top: -64px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255,255,255,.08);
+  font-size: 360px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.about-quote__inner {
+  min-height: 505px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-block: 60px 48px;
+  text-align: center;
+}
+
+.about-quote blockquote {
+  max-width: 980px;
+  margin: 0 auto 36px;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: .99;
+  letter-spacing: -.055em;
+  text-transform: uppercase;
+}
+
+.about-quote__author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-quote__portrait {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+  border: 3px solid rgba(255,255,255,.75);
+  border-radius: 50%;
+  /* Replace with img/about-founder.png when available */
+  background:
+    url("../img/gallery-1.png") center / cover no-repeat,
+    #555;
+}
+
+.about-quote__author strong {
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+.about-quote__author span {
+  color: rgba(255,255,255,.72);
+  font-size: 12px;
+}
+
+@media (max-width: 900px) {
+  .about-story {
+    padding: 80px 0;
+  }
+
+  .about-story__grid {
+    min-height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+
+  .about-story__card,
+  .about-story__title,
+  .about-story__team {
+    width: auto;
+    min-height: 180px;
+    position: static;
+    transform: none;
+  }
+
+  .about-story__title {
+    min-height: 160px;
+    grid-column: 1 / -1;
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+    order: -1;
+  }
+
+  .about-story__card {
+    padding: 22px;
+  }
+
+  .about-story__card--people strong,
+  .about-story__card--cities strong {
+    font-size: 38px;
+  }
+
+  .about-story__card--story h2,
+  .about-story__card--mission h2 {
+    margin-bottom: 55px;
+    font-size: 20px;
+  }
+
+  .about-story__card--story p,
+  .about-story__card--mission p {
+    font-size: 15px;
+  }
+
+  .about-story__card--mission,
+  .about-story__team {
+    grid-column: 1 / -1;
+    min-height: 260px;
+  }
+
+  .about-numbers {
+    padding-inline: 12px;
+  }
+
+  .about-numbers__panel {
+    min-height: auto;
+    display: grid;
+    gap: 16px;
+    padding: 34px 20px;
+    border-radius: 26px;
+  }
+
+  .about-numbers__intro,
+  .about-numbers__brand,
+  .about-stat {
+    width: auto;
+    position: static;
+  }
+
+  .about-numbers__intro h2 {
+    font-size: 32px;
+  }
+
+  .about-numbers__brand {
+    width: 130px;
+    margin: 40px 0;
+  }
+
+  .about-stat {
+    min-height: 220px;
+    padding: 30px 24px;
+    border-radius: 28px;
+  }
+
+  .about-stat strong {
+    font-size: 46px;
+  }
+
+  .about-services {
+    min-height: auto;
+    padding: 80px 0;
+  }
+
+  .about-services__stage {
+    min-height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+
+  .about-services__stage > h2 {
+    position: static;
+    grid-column: 1 / -1;
+    margin-bottom: 30px;
+    transform: none;
+    text-align: center;
+  }
+
+  .about-service {
+    width: auto;
+    min-height: 230px;
+    position: relative;
+    inset: auto;
+    padding: 112px 18px 18px;
+    border-radius: 24px;
+  }
+}
+
+@media (max-width: 700px) {
+  .about-hero {
+    min-height: 670px;
+    background-position: 58% center;
+  }
+
+  .about-hero__inner {
+    min-height: 580px;
+    padding-bottom: 42px;
+  }
+
+  .about-hero h1 {
+    font-size: clamp(43px, 14vw, 62px);
+  }
+
+  .about-hero p {
+    max-width: 310px;
+    font-size: 15px;
+  }
+
+  .about-story {
+    padding: 70px 0;
+  }
+
+  .about-quote__inner {
+    min-height: 570px;
+  }
+
+  .about-quote blockquote {
+    font-size: clamp(22px, 6.5vw, 30px);
+  }
+}
+
+@media (max-width: 420px) {
+  .about-story__grid,
+  .about-services__stage {
+    grid-template-columns: 1fr;
+  }
+
+  .about-story__title,
+  .about-story__card--mission,
+  .about-story__team,
+  .about-services__stage > h2 {
+    grid-column: auto;
+  }
+}

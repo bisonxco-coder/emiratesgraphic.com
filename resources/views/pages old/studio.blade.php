@@ -1,0 +1,199 @@
+  @extends('index')
+  @section('title_and_meta')
+
+  <title>Trusted Internet Marketing & Web Development Company in Dubai</title>
+  <meta name="We at Emirates Graphic provides solutions for Digital Marketing, Branding, Web & Mobile App development with a common vision towards to reaching the best result and satisfying customers." />
+
+  @include('includes.google_scripts')
+  @endsection
+  @section('content')
+  <div class="animsition-overlay studio_cover">
+    <section class="top_cover_page on_white_t" style="background-image: url({{ URL::to('/img/manjakos/' . $one['studio_top']['collections']['background'])}}); background: #F5F5F5;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h3 data-aos="zoom-out-up">{{$one['studio_top']['collections']['title']['en']}}</h3>
+            <div class="tech-slideshow">
+              <div class="mover-1"></div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="morph_negative_container">
+              <div class="moving_shape1 moving_shape2"></div>
+            </div>
+            <div class="morphing_container">
+              <div class="moving_shape" style="background-image: url({{ URL::to('/img/manjakos/' . $one['studio_top']['collections']['morphing-image'])}})"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="services_process">
+      @include('includes.theprocess')
+    </div>
+
+    <div class="inovation_all_m">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 offset-md-2">
+            <h2 data-aos="zoom-out-up"><span class="we_shape2">We</span> innovate by designing and developing digital experiences</h2>
+
+            <div class="rellax lili_a mobile-d-n" data-rellax-speed="-2.5"> <img src="img/Line 13.png" alt="">
+              <div class="liluzivert">culture</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    @include('includes.team')
+
+    <section class="section_quality">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img src="img/eg red.svg" alt="" data-aos="zoom-in-up">
+            <h3 data-aos="zoom-in" data-aos-delay="300">We stand for<br>
+              quality and <br>
+              success.</h3>
+          </div>
+          <div class="col-md-7">
+            <h5 data-aos="zoom-in" data-aos-delay="200">Vision</h5>
+            <p data-aos="zoom-in" data-aos-delay="300">At Emirates Graphic, we create innovative and original products in order to bring success to all of our clients. We believe that maintaining a strong relationship with our clients helps us grow and achieve greatness together.</p>
+            <h5 data-aos="zoom-in" data-aos-delay="400">Mission</h5>
+            <p data-aos="zoom-in" data-aos-delay="500">Results driven, Emirates Graphic aims to be the leading agency in the UAE by 2020, continuing to have a positive impact on the growing economy in the region. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="container">
+      <div class="row">
+        <div class="img_box">
+          <img src="/img/kosovo.svg" alt="">
+        </div>
+      </div>
+    </div> -->
+    <!-- <div class="container-fluid">
+      <div class="image_holder_team">
+        <div class="zoom">
+          <img class="team_img_11" src="img/KRT_6100.jpg">
+        </div>
+        <img src="/img/kosovo.svg" alt="" class="rellax teamtarab" data-rellax-speed="1">
+      </div>
+      <div class="image_holder_team">
+        <div class="zoom">
+          <img class="team_img_11" src="img/pYHSN8y0.jpeg">
+        </div>
+        <img src="/img/kosovo.svg" alt="" class="rellax teamtarab" data-rellax-speed="1">
+      </div>
+    </div> -->
+
+    <section class="our_history">
+      <div class="container">
+        <h2 data-aos="zoom-in-up">Our History</h2>
+        <div class="carousel-indicators1 history_indicators scrollbar_all_mob_red" id="myDIV" data-aos="zoom-in-up" data-aos-delay="400">
+          <div data-target="#carouselExampleIndicators1" data-slide-to="0" class="ind_hios active">2013</div>
+          <div data-target="#carouselExampleIndicators1" data-slide-to="1" class="ind_hios">2014</div>
+          <div data-target="#carouselExampleIndicators1" data-slide-to="2" class="ind_hios">2015</div>
+          <div data-target="#carouselExampleIndicators1" data-slide-to="3" class="ind_hios">2016</div>
+          <div data-target="#carouselExampleIndicators1" data-slide-to="4" class="ind_hios">2017</div>
+          <div data-target="#carouselExampleIndicators1" data-slide-to="5" class="ind_hios">2018</div>
+          <div data-target="#carouselExampleIndicators1" data-slide-to="6" class="ind_hios">2019</div>
+          <div data-target="#carouselExampleIndicators1" data-slide-to="7" class="ind_hios">2023</div>
+        </div>
+        <div class="row" data-aos="zoom-in-up" data-aos-delay="500">
+          <div id="carouselExampleIndicators1" class="carousel carousel_stop slide" data-ride="carousel">
+
+            <div ng-if="includes.global">
+              <div class="carousel-inner">
+                <div class="carousel-item" data-ng-class="{active : $first}" ng-repeat="slider in includes.global.many[3]['our-history']">
+                  <h5><%slider['collections']['title']['en']%></h5>
+                  <p ng-bind-html="slider['collections']['description']['en']"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="young_eng">
+      <div class="container">
+        <div class="row">
+          <h3 data-aos="zoom-in" data-aos-delay="300">{{$one['young_energetic']['collections']['title']['en']}}</h3>
+          <p data-aos="zoom-in" data-aos-delay="400">{!!$one['young_energetic']['collections']['description']['en']!!}</p>
+          <a href="/contact" class="_morp_h_a">Work With Us
+            <i class="fas fa-angle-right _morph_icon"></i></a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    // TEAM
+    (function($) {
+      //Function to animate slider captions
+      function doAnimations(elems) {
+        //Cache the animationend event in a variable
+        var animEndEv = "webkitAnimationEnd animationend";
+
+        elems.each(function() {
+          var $this = $(this),
+            $animationType = $this.data("animation");
+          $this.addClass($animationType).one(animEndEv, function() {
+            $this.removeClass($animationType);
+          });
+        });
+      }
+
+      //Variables on page load
+      var $myCarousel = $("#carouselExampleIndicators"),
+        $firstAnimatingElems = $myCarousel
+        .find(".carousel-item:first")
+        .find("[data-animation ^= 'animated']");
+
+      //Initialize carousel
+      $myCarousel.carousel();
+
+      //Animate captions in first slide on page load
+      doAnimations($firstAnimatingElems);
+
+      //Other slides to be animated on carousel slide event
+      $myCarousel.on("slide.bs.carousel", function(e) {
+        var $animatingElems = $(e.relatedTarget).find(
+          "[data-animation ^= 'animated']"
+        );
+        doAnimations($animatingElems);
+      });
+    })(jQuery);
+  </script>
+
+  <script>
+    $(function() {
+      $('#myDIV .ind_hios').on('click', function() {
+        $(this).parent().find('.ind_hios.active').removeClass('active');
+        $(this).addClass('active');
+      });
+    });
+  </script>
+
+  <script>
+    $('.carousel_stop').carousel({
+      interval: false
+    });
+  </script>
+  <script>
+    $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      $(".zoom .team_img_11").css({
+        transform: 'translate3d(4%, -' + (scroll / 300) + '%, 0) scale(' + (80 + scroll / 80) / 100 + ')',
+        //Blur suggestion from @janwagner: https://codepen.io/janwagner/ in comments
+        //"-webkit-filter": "blur(" + (scroll/200) + "px)",
+        filter: "grayscale(" + (scroll/20) + "px)",
+      });
+    });
+  </script>
+  @endsection

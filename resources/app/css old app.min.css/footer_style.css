@@ -1,0 +1,31 @@
+.footer_main {
+	background: #141320;
+}
+.footer_row_contact_1 {
+    display: flex;
+    justify-content: space-between;
+	padding-top: 50px;
+	color: white;
+	padding: 9% 0px 8%;
+}
+.footer_row_contact_1 ul {
+	padding: 0px;
+	list-style: none;
+}
+.footer_row_contact_1 img {
+	width: 50px;
+}
+.footer_row_contact_1 a {
+	color: white;
+	font-family: 'SF-UI-Display-Regular';
+	text-transform: capitalize;
+    line-height: 30px;
+	font-size: 19px;
+	opacity: 0.7;
+	transition: ease-in-out all 0.2s;
+}
+
+.footer_row_contact_1 a:hover {
+	opacity: 1;
+	transition: ease-in-out all 0.2s;
+}

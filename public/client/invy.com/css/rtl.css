@@ -1,0 +1,49 @@
+/* RTL layout overrides when Arabic is selected */
+html[dir="rtl"] body {
+  text-align: right;
+}
+
+html[dir="rtl"] .nav__inner,
+html[dir="rtl"] .nav__drawerLinks,
+html[dir="rtl"] .nav__drawerActions,
+html[dir="rtl"] .footer__main,
+html[dir="rtl"] .footer__nav,
+html[dir="rtl"] .footer__bottom,
+html[dir="rtl"] .footer__legal,
+html[dir="rtl"] .footer__meta,
+html[dir="rtl"] .hero__content,
+html[dir="rtl"] .features__inner,
+html[dir="rtl"] .events__header,
+html[dir="rtl"] .events__filters,
+html[dir="rtl"] .venues-directory__header,
+html[dir="rtl"] .venues-directory__filters,
+html[dir="rtl"] .cta__actions,
+html[dir="rtl"] .gallery__center {
+  direction: rtl;
+}
+
+html[dir="rtl"] .nav__searchIcon::after {
+  right: auto;
+  left: -4px;
+}
+
+html[dir="rtl"] .circle.left {
+  transform: none;
+}
+
+html[dir="rtl"] .circle:not(.left) {
+  transform: rotate(180deg);
+}
+
+html[dir="rtl"] .legal__wrap {
+  direction: rtl;
+}
+
+html[dir="rtl"] .legal__section ul {
+  padding-right: 18px;
+  padding-left: 0;
+}
+
+html[dir="rtl"] .footer__langSelect {
+  text-align: right;
+}

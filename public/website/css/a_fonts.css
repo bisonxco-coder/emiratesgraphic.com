@@ -1,0 +1,53 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+
+
+
+@font-face {
+  font-family: 'PoppinsBold';
+  src: url('../fonts/PoppinsBold.woff');
+ }
+ @font-face {
+  font-family: 'PoppinsRegular';
+  src: url('../fonts/PoppinsRegular.woff');
+ }
+
+body {
+  font-family: 'PoppinsRegular' !important;
+}
+
+button:active {
+  outline: none !important;
+}
+button:focus {
+  outline: none !important;
+}
+input:active {
+  outline: none !important;
+}
+input:focus {
+  outline: none !important;
+}
+.no_padding {
+  padding: 0px !important;
+}
+
+.small_padding-lr {
+  padding: 0px 5px !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+
+

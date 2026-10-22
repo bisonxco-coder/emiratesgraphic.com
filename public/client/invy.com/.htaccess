@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Canonical host: prefer apex (invyapp.ae). If you prefer www, swap these two rules.
+  RewriteCond %{HTTP_HOST} ^www\.invyapp\.ae$ [NC]
+  RewriteRule ^ https://invyapp.ae%{REQUEST_URI} [L,R=301,QSD]
+
+  # Pretty legal URLs (avoid 404 when links omit .php)
+  RewriteRule ^events/?$ events.php [L,QSA]
+  RewriteRule ^event/?$ event.php [L,QSA]
+  RewriteRule ^venues/?$ venues.php [L,QSA]
+  RewriteRule ^venue/?$ venue.php [L,QSA]
+  RewriteRule ^about/?$ about.php [L,QSA]
+  RewriteRule ^how-it-works/?$ how-it-works.php [L,QSA]
+  RewriteRule ^blog/?$ blog.php [L,QSA]
+  RewriteRule ^privacy/?$ privacy.php [L,QSA]
+  RewriteRule ^terms/?$ terms.php [L,QSA]
+  RewriteRule ^refund/?$ refund.php [L,QSA]
+  RewriteRule ^data-deletion/?$ data-deletion.php [L,QSA]
+</IfModule>

@@ -1,0 +1,103 @@
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+/*====================*/
+/*       FONTS        */
+/*====================*/
+
+
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('../fonts/Axiforma Regular.otf');
+}
+
+@font-face {
+  font-family: 'Grotesk';
+  src: url('../fonts/RightGrotesk-Medium.otf');
+}
+
+body {
+  font-family: Axiforma;
+}
+
+button:active {
+  outline: none !important;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+input:active {
+  outline: none !important;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+.no_padding {
+  padding: 0px !important;
+}
+
+.small_padding-lr {
+  padding: 0px 5px !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.container-fluid {
+  padding: 0% 5% !important;
+}
+
+.title_t {
+  font-family: Grotesk;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 65px;
+  line-height: 78px;
+  letter-spacing: -0.03em;
+}
+
+p {
+  font-family: Axiforma;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+} 
+
+.button_default {
+  display: flex;
+  justify-content: space-around;
+  min-width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  border: solid 2px transparent;
+  font-weight: 600;
+  color: white;
+  align-items: center;
+  margin: 5px 10px;
+}
+
+.button_default.red {
+  background: #FF0000;
+}
+
+.button_default.green {
+  background: #4CAF50;
+}
+.button_default.transparent {
+  background: transparent;
+  color: white;
+  border: solid 2px white;
+}

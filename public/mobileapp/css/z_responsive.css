@@ -1,0 +1,102 @@
+/*Only in desktop*/
+@media only screen and (min-width: 1000px) {
+    .desktop-d-n {
+      display: none ;
+    }
+}
+
+
+/*Only on Mobile*/
+@media only screen and (max-width: 1000px) {
+    .mobile-d-n {
+        display: none !important;
+    }
+    body {
+        overflow-x: hidden !important;
+    }
+    .three_bigones_pc {
+        padding: 5% 0;
+        text-align: center;
+    }
+    .rellax { 
+        transform: translate3d(0,0,0) !important; 
+    }    
+    .three_main_imagesstat img:first-child:hover {
+        transform: translateX(0px);
+        transition: ease-in-out all 0.4s;
+    }
+    .three_main_imagesstat img:nth-child(3):hover {
+        transform: translateX(50px);
+        transition: ease-in-out all 0.4s;
+    }
+    .navigation_top {
+        padding: 5vh 15px;
+    }
+    .top_header {
+        padding-top: 25vh;
+        padding-bottom: 5vh;
+    }
+    .facts_section_first img {
+        width: 50%;
+        padding: 5%;
+    }
+    .top_header h1 {
+        font-size: 30px;
+    }    
+    .top_header img {
+        width: 70%;
+        margin: 0px auto 40px;
+    }
+    .row_header_1 .col-md-7 {
+        text-align: center;
+    }
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 47% !important;
+        margin: 0 auto !important;
+    }
+    .top_header input,
+    .top_header select {
+        width: 44.5%; 
+        background: 0 0;
+        border: none;
+        border-bottom: 2px #fff solid;
+        margin-bottom: 10px;
+        color: #fff;
+        padding: 5px;
+        margin-left: 10px;
+    }
+    .top_header .default_button {
+        background-color: #ff0000;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        height: 40px;
+        width: 210px;
+        transition: ease-in-out 0.2s all;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .owl-item.center img {
+        transform: scale(1);
+        z-index: 44!important;
+        opacity: 1!important;
+    }
+    footer {
+        text-align: center;
+    }
+    footer .col-md-3 {
+        padding-left: 0px;
+    }
+    .type_of_apps .row {
+        display: block;
+    }
+    
+    .type_kind {
+        width: 65%;
+        padding: 0 1%;
+        text-align: center;
+        color: #fff;
+        margin: 20px auto;
+    }
+}
