@@ -28,6 +28,11 @@
     <script src="{{url('v4 bootstrap/bootstrap/bootstrap.min.js')}}"></script>
     <script src="{{url('js/app.js')}}"></script>
     @yield('title_and_meta')
+    {{-- 2026-10-23: self-referencing canonical when the page does not set one (skip noindex pages e.g. 404) --}}
+    @php($egHead = $__env->yieldContent('title_and_meta'))
+    @if(stripos($egHead, 'rel="canonical"') === false && stripos($egHead, 'noindex') === false)
+    <link rel="canonical" href="https://emiratesgraphic.com{{ request()->path() === '/' ? '/' : '/'.request()->path() }}">
+    @endif
     <style media="screen">
         .bg-init,
         .animsition-overlay-slide {

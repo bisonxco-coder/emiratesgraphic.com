@@ -8,6 +8,11 @@
             $egMetaDesc = trim(preg_replace('/\s+/u', ' ', html_entity_decode(strip_tags($entity[0]['collections']['description_sm']['en']), ENT_QUOTES, 'UTF-8')));
             $egMetaDesc = str_limit($egMetaDesc, 157, '...');
         }
+        // 2026-10-23: fallback excerpt (~155 chars) from post body when there is no short description
+        if ($egMetaDesc === '' && !empty($entity[0]['collections']['description_lg']['en']) && is_string($entity[0]['collections']['description_lg']['en'])) {
+            $egMetaDesc = trim(preg_replace('/\s+/u', ' ', html_entity_decode(strip_tags(preg_replace('/<(script|style)\b[^>]*>.*?<\/\1>/is', ' ', $entity[0]['collections']['description_lg']['en'])), ENT_QUOTES, 'UTF-8')));
+            $egMetaDesc = str_limit($egMetaDesc, 155, '...');
+        }
         $egCanonical = url('/blog/'.$entity[0]['id'].'/'.(is_array($entity[0]['slugable']) && !empty($entity[0]['slugable']['en']) ? $entity[0]['slugable']['en'] : ''));
     @endphp
     @if($egMetaDesc !== '')

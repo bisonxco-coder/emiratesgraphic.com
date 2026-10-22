@@ -1,43 +1,4 @@
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "name": "Emirates Graphic",
-      "url": "https://emiratesgraphic.com/",
-      "logo": "https://emiratesgraphic.com/img/white-logo-eg.svg",
-      "description": "Emirates Graphic is a creative agency that builds powerful digital solutions.",
-      "email": "info@emiratesgraphic.com",
-      "telephone": "+971509124567",
-      "sameAs": [
-        "https://www.facebook.com/EmiratesGraphic/",
-        "https://x.com/designxemirates",
-        "https://www.instagram.com/EMIRATESGRAPHIC/",
-        "https://www.youtube.com/channel/UC5LT8GrHp8QaLEcw8V1MRbg"
-      ]
-    },
-    {
-      "@type": "LocalBusiness",
-      "name": "Emirates Graphic",
-      "image": "https://emiratesgraphic.com/img/white-logo-eg.svg",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "35th Floor, Swiss Tower, Cluster Y, Jumeirah Lakes Towers",
-        "addressLocality": "Dubai",
-        "addressRegion": "Dubai",
-        "postalCode": "",
-        "addressCountry": "UAE"
-      },
-      "telephone": "+971509124567",
-      "email": "info@emiratesgraphic.com",
-      "description": "Creative agency in Dubai offering web development, Web 3.0, app development, digital marketing, and prototype services.",
-      "openingHours": "Mo–Fr 09:00–18:00"
-    }
-  ]
-}
-</script>
+<!-- 2026-10-23: duplicate global Organization/LocalBusiness JSON-LD (was url /home) removed; backup in eg_backups/2026-10-23 -->
 
 
 <script type="application/ld+json">
