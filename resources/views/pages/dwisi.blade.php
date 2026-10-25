@@ -1,9 +1,13 @@
 @extends('index')
 @section('title_and_meta')
+{{-- 2026-10-25: missing title/meta added --}}
+<title>Dwisi Second-Hand Fashion App | Emirates Graphic</title>
+<meta name="description" content="Case study: Dwisi, a UAE mobile app where users open their own virtual shop to buy and sell second-hand fashion and accessories, with integrated payments.">
 
 @include('includes.google_scripts')
 @endsection
 @section('content')
+<h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">Dwisi – Second-Hand Fashion Marketplace App</h1>{{-- 2026-10-25: SEO H1 added (visually hidden, layout unchanged) --}}
 <div class="animsition-overlay">
     <div class="portfolio_gen_eral dwisi_elements_all">
         <div class="dwisi_cover">

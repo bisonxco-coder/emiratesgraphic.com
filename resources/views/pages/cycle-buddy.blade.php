@@ -1,9 +1,13 @@
 @extends('index')
 @section('title_and_meta')
+{{-- 2026-10-25: missing title/meta added --}}
+<title>Cycle Buddy Cyclist Help App | Emirates Graphic</title>
+<meta name="description" content="Case study: Cycle Buddy, a mobile app that lets cyclists request and offer help at any time during their ride. Designed and developed by Emirates Graphic.">
 
 @include('includes.google_scripts')
 @endsection
 @section('content')
+<h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">Cycle Buddy – Help for Cyclists on Every Ride</h1>{{-- 2026-10-25: SEO H1 added (visually hidden, layout unchanged) --}}
 <div class="animsition-overlay">
     <div class="portfolio_gen_eral cycle_all">
         <div class="cycle_cover">

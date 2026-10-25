@@ -1,9 +1,13 @@
     @extends('index')
     @section('title_and_meta')
+{{-- 2026-10-25: missing title/meta added --}}
+<title>DineSouq Restaurant Web Platform | Emirates Graphic</title>
+<meta name="description" content="Case study: design and development of DineSouq, a user-friendly web platform connecting restaurants with customers. Made by Emirates Graphic in Dubai.">
 
     @include('includes.google_scripts')
     @endsection
     @section('content')
+<h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">DineSouq – Connecting Restaurants with Customers</h1>{{-- 2026-10-25: SEO H1 added (visually hidden, layout unchanged) --}}
 
     <div class="animsition-overlay">
         <div class="portfolio_gen_eral dinesouq_all">

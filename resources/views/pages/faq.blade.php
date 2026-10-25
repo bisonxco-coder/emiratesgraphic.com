@@ -1,6 +1,9 @@
 @extends('index')
 
 @section('title_and_meta')
+{{-- 2026-10-25: missing title/meta added --}}
+<title>FAQ – Web &amp; App Development in Dubai | Emirates Graphic</title>
+<meta name="description" content="Answers to common questions about Emirates Graphic&#x27;s websites, mobile apps, digital marketing, process, pricing and support for clients in the UAE.">
 
 <script type="application/ld+json">
     {

@@ -13,6 +13,7 @@
 @endsection
 
 @section('content')
+<h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">Emirates Graphic Blog – Web, App &amp; Marketing Insights</h1>{{-- 2026-10-25: SEO H1 added (visually hidden, layout unchanged) --}}
 
 <div class="animsition-overlay">
 
@@ -48,7 +49,7 @@
 
                             <div class="moving_shape"
 
-                                style="background-image: url({{ URL::to('/img/manjakos/' . $one['blog-cover']['collections']['image'])}})">
+                                style="background-image: url({{ URL::to(file_exists(public_path('img/manjakos/webp/'.$one['blog-cover']['collections']['image'].'.webp')) ? '/img/manjakos/webp/'.$one['blog-cover']['collections']['image'].'.webp' : '/img/manjakos/'.$one['blog-cover']['collections']['image'])}})">
 
                             </div>
 
@@ -73,7 +74,7 @@
             <div class="item itemmain">
                 <a href="{!!URL::to('/blog/'.$loop_repeat['id'].'/'.$loop_repeat['slugable']['en'].'/')!!}">
                     <div class="box_article"
-                        style="background-image: url('{{URL::to('/img/manjakos/'.$loop_repeat['collections']['image'])}}');">
+                        style="background-image: url('{{URL::to(file_exists(public_path('img/manjakos/webp/'.$loop_repeat['collections']['image'].'.webp')) ? '/img/manjakos/webp/'.$loop_repeat['collections']['image'].'.webp' : '/img/manjakos/'.$loop_repeat['collections']['image'])}}');">
                         <div>
                             <p>{{$loop_repeat['collections']['author-name']['en']}}</p>
                             <h4>{!!$loop_repeat['collections']['title']['en']!!}</h4>
@@ -208,7 +209,7 @@
 
                         <div class="imageS_grid_a_medi">
 
-                            <img src="{{URL::to('/img/manjakos/'.$loop_repeat['collections']['media_logo'])}}"
+                            <img loading="lazy" src="{{URL::to(file_exists(public_path('img/manjakos/webp/'.$loop_repeat['collections']['media_logo'].'.webp')) ? '/img/manjakos/webp/'.$loop_repeat['collections']['media_logo'].'.webp' : '/img/manjakos/'.$loop_repeat['collections']['media_logo'])}}"
 
                                 class="image_press">
 
@@ -218,7 +219,7 @@
 
                             <h3>{{$loop_repeat['collections']['title']['en']}}</h3>
 
-                            <img src="{{URL::to('/img/manjakos/'.$loop_repeat['collections']['client_logo'])}}"
+                            <img loading="lazy" src="{{URL::to(file_exists(public_path('img/manjakos/webp/'.$loop_repeat['collections']['client_logo'].'.webp')) ? '/img/manjakos/webp/'.$loop_repeat['collections']['client_logo'].'.webp' : '/img/manjakos/'.$loop_repeat['collections']['client_logo'])}}"
 
                                 class="image_project clientimage">
 

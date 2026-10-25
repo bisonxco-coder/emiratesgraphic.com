@@ -36,7 +36,7 @@
 <div class="animsition-overlay">
 
     <section class="blog_newcover22"
-        style="background-image: url({{ URL::to('/img/manjakos/' . $entity[0]['collections']['image'])}})">
+        style="background-image: url({{ URL::to(file_exists(public_path('img/manjakos/webp/'.$entity[0]['collections']['image'].'.webp')) ? '/img/manjakos/webp/'.$entity[0]['collections']['image'].'.webp' : '/img/manjakos/'.$entity[0]['collections']['image'])}})">
         <div class="text_holder">
             <h6>{{ $entity[0]['collections']['quote']['en'] }}</h6>
             <h1 class="eg_post_title" style="font-family: Poppins-bold !important;">{!! $entity[0]['collections']['title']['en'] !!}</h1>
@@ -51,7 +51,7 @@
                     <p>{!! $entity[0]['collections']['description_sm']['en'] !!}</p>
                 </div>
                 <!-- <div class="blog_cover_imagetop"
-                    style="background-image: url({{ URL::to('/img/manjakos/' . $entity[0]['collections']['image'])}})">
+                    style="background-image: url({{ URL::to(file_exists(public_path('img/manjakos/webp/'.$entity[0]['collections']['image'].'.webp')) ? '/img/manjakos/webp/'.$entity[0]['collections']['image'].'.webp' : '/img/manjakos/'.$entity[0]['collections']['image'])}})">
                 </div> -->
             </div>
         </div>
@@ -62,7 +62,7 @@
             {!! is_string($entity[0]['collections']['description_lg']['en']) ? preg_replace('/<(\/?)h1(\s|>)/i', '<$1h2$2', $entity[0]['collections']['description_lg']['en']) : $entity[0]['collections']['description_lg']['en'] !!}
             <div class="author_holder">
                 <div class="imgauth"
-                    style="background-image: url({{ URL::to('/img/manjakos/' . $entity[0]['collections']['author_image'])}})">
+                    style="background-image: url({{ URL::to(file_exists(public_path('img/manjakos/webp/'.$entity[0]['collections']['author_image'].'.webp')) ? '/img/manjakos/webp/'.$entity[0]['collections']['author_image'].'.webp' : '/img/manjakos/'.$entity[0]['collections']['author_image'])}})">
                 </div>
                 <h5>{{ $entity[0]['collections']['author-name']['en'] }}</h5>
             </div>

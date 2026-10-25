@@ -8,6 +8,7 @@ Personalized Culinary Experience">
 @include('includes.google_scripts')
 @endsection
 @section('content')
+<h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">Daska – Connecting Dog Owners and Trainers</h1>{{-- 2026-10-25: SEO H1 added (visually hidden, layout unchanged) --}}
 <div class="animsition-overlay daskatheme">
     <div class="portfolio_gen_eral emoji_elements_all">
         <div class="emoji_cover">
