@@ -23,6 +23,21 @@ function eg_post($key) {
     return isset($_POST[$key]) ? htmlspecialchars((string)$_POST[$key], ENT_QUOTES, 'UTF-8') : '';
 }
 
+// 2026-10-26: prano vetëm POST me emër + email të vlefshëm (përndryshe mos dërgo asgjë)
+if (!isset($_SERVER['REQUEST_METHOD']) || $_SERVER['REQUEST_METHOD'] !== 'POST') {
+    header('HTTP/1.1 405 Method Not Allowed');
+    header('Allow: POST');
+    echo 'Method not allowed';
+    exit;
+}
+$egName  = isset($_POST['FNAME']) ? trim((string)$_POST['FNAME']) : '';
+$egEmail = isset($_POST['EMAIL']) ? trim((string)$_POST['EMAIL']) : '';
+if ($egName === '' || !filter_var($egEmail, FILTER_VALIDATE_EMAIL)) {
+    header('HTTP/1.1 400 Bad Request');
+    echo 'Missing fields';
+    exit;
+}
+
 // Merr subjektin nga emaili i plotësuar në formular (nga Kodi 1)
 $subjectEmail = isset($_POST['EMAIL']) ? str_replace(array("\r", "\n"), ' ', (string)$_POST['EMAIL']) : '';
 
@@ -64,8 +79,11 @@ $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 curl_close($ch);
 
 // Kthimi i përgjigjes standarde HTTP
-if ($http_code !== 200) {
-    header('HTTP/1.1 500 Internal Server Error');
+// 2026-10-26: sukses vetëm kur Mailgun kthen 200 + "id" (mesazhi u pranua); përndryshe 502 + log
+$mgJson = is_string($response) ? json_decode($response, true) : null;
+if ($http_code !== 200 || !is_array($mgJson) || empty($mgJson['id'])) {
+    error_log('mail_contact.php: Mailgun send failed, HTTP ' . $http_code . ', response: ' . substr(is_string($response) ? $response : var_export($response, true), 0, 500));
+    header('HTTP/1.1 502 Bad Gateway');
     echo 'Mail failed !';
 } else {
     header('HTTP/1.1 200 OK');

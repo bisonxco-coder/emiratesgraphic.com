@@ -4,21 +4,22 @@
 // ***************************************************************************
 
 $("#form_contact_main").submit(function (e) {
-    if ($(this).data("isSubmitted")) {
-        e.preventDefault(); // Nëse forma është dërguar tashmë, mos lejo dërgimin përsëri.
-        return;
+    e.preventDefault(); // Parandaloni dërgimin e vërtetë të formës.
+    var $form = $(this);
+    if ($form.data("isSubmitted")) {
+        return; // Nëse forma është duke u dërguar, mos lejo dërgimin përsëri.
     }
 
-    var submitBtn = $("#submitmaincontactBtn"); // Butoni "Submit"
+    var submitBtn = $form.find('[type=submit]'); // Butoni "Let's Go" (2026-10-26)
 
     var url = "https://emiratesgraphic.com/mail_contact.php"; // skedari ku do të trajtohet inputi i formës
     $.ajax({
         type: "POST",
         url: url,
-        data: $(this).serialize(), // serializimi i elementeve të formës.
+        data: $form.serialize(), // serializimi i elementeve të formës.
         beforeSend: function () {
+            $form.data("isSubmitted", true); // 2026-10-26: flag vendoset vetëm kur kërkesa niset
             submitBtn.prop("disabled", true); // Parandaloni klikimin e butonit.
-            submitBtn.text("Sending..."); // Ndryshoni tekstin e butonit në "Sending..."
         },
         success: function (data) {
             $.notify(data, "success");
@@ -28,15 +29,15 @@ $("#form_contact_main").submit(function (e) {
             }
             window.location.href = "/thankyou";
         },
+        error: function () {
+            // 2026-10-26: shfaq gabimin (p.sh. 406 nga ModSecurity, 4xx/5xx) dhe lejo provë tjetër
+            $.notify("Couldn't send, please email info@emiratesgraphic.com or call +971 50 912 4567", "error");
+            $form.data("isSubmitted", false);
+        },
         complete: function () {
             submitBtn.prop("disabled", false);
-            submitBtn.text("Submit"); // Kthejeni tekstin e butonit në gjendjen normale.
         }
     });
-
-    $(this).data("isSubmitted", true); // Vendosni variablën flag si e vërtetë pasi forma është dërguar.
-
-    e.preventDefault(); // Parandaloni dërgimin e vërtetë të formës.
 });
 
 // ***************************************************************************

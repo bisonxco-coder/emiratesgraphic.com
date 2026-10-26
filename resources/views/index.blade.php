@@ -80,7 +80,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
 <script src="{{url('/js/script_home.min.js')}}"></script>
 <script src="{{url('/js/notify.js')}}"></script>
-<script src="{{url('/js/email-config.js')}}"></script>
+<script src="{{url('/js/email-config.js')}}?v=20261026"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
 <script>
     $('.js-tilt').tilt({
