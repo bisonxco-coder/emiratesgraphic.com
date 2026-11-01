@@ -11,6 +11,7 @@
         <section class="contact_holder2">
             <div class="contact_dark_section">
                 <div class="row">
+                    <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">Contact Emirates Graphic</h1>{{-- 2026-11-01: SEO H1 added (visually hidden, layout unchanged) --}}
                     <h2>Have an idea?</h2>
                     <p>Bring your next project to life. Please fill in the information below and one of our consultants
                         will reach out to you today!</p>
