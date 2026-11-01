@@ -127,7 +127,7 @@ Route::get('/marketing-services/{name}', function ($name) {
 // 2026-10-19: dynamic sitemap (static public/sitemap.xml moved to backup)
 Route::get('/sitemap.xml', function () {
     $base = 'https://emiratesgraphic.com';
-    $exclude = array('home', 'thankyou', 'thank-you', '404', 'portfolio', 'prototype', 'sitemap');
+    $exclude = array('home', 'thankyou', 'thank-you', '404', 'portfolio', 'sitemap');
     $urls = array();
     $homeView = resource_path('views/pages/home.blade.php');
     $urls[] = array($base.'/', is_file($homeView) ? date('c', filemtime($homeView)) : null, '1.00');
